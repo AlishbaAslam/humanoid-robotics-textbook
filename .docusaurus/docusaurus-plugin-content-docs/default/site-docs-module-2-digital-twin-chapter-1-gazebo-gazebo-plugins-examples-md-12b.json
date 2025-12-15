@@ -1,0 +1,28 @@
+{
+  "id": "module-2-digital-twin/chapter-1-gazebo/gazebo-plugins-examples",
+  "title": "Gazebo Plugins and Custom Environments Code Examples",
+  "description": "This section provides practical code examples for creating custom Gazebo plugins and building specialized simulation environments. These examples demonstrate advanced techniques for extending Gazebo's capabilities in digital twin applications.",
+  "source": "@site/docs/module-2-digital-twin/chapter-1-gazebo/gazebo-plugins-examples.md",
+  "sourceDirName": "module-2-digital-twin/chapter-1-gazebo",
+  "slug": "/module-2-digital-twin/chapter-1-gazebo/gazebo-plugins-examples",
+  "permalink": "/docs/module-2-digital-twin/chapter-1-gazebo/gazebo-plugins-examples",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/module-2-digital-twin/chapter-1-gazebo/gazebo-plugins-examples.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 9,
+  "frontMatter": {
+    "title": "Gazebo Plugins and Custom Environments Code Examples",
+    "sidebar_position": 9
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Exercise 1 - Basic Robot in Gazebo Environment",
+    "permalink": "/docs/module-2-digital-twin/chapter-1-gazebo/exercise-1-basic-robot"
+  },
+  "next": {
+    "title": "Troubleshooting Guide for Common Gazebo Issues",
+    "permalink": "/docs/module-2-digital-twin/chapter-1-gazebo/troubleshooting-guide"
+  }
+}

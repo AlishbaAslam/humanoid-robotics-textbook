@@ -1,0 +1,19 @@
+{
+  "id": "module-3-ai-robot-brain/chapter-2-isaac-ros/summary",
+  "title": "Chapter 2 Summary: Isaac ROS for Humanoid Navigation",
+  "description": "Overview",
+  "source": "@site/docs/module-3-ai-robot-brain/chapter-2-isaac-ros/summary.md",
+  "sourceDirName": "module-3-ai-robot-brain/chapter-2-isaac-ros",
+  "slug": "/module-3-ai-robot-brain/chapter-2-isaac-ros/summary",
+  "permalink": "/docs/module-3-ai-robot-brain/chapter-2-isaac-ros/summary",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/module-3-ai-robot-brain/chapter-2-isaac-ros/summary.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 12,
+  "frontMatter": {
+    "sidebar_position": 12,
+    "title": "Chapter 2 Summary: Isaac ROS for Humanoid Navigation"
+  }
+}

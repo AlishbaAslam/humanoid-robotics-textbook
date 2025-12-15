@@ -1,0 +1,28 @@
+{
+  "id": "module-1-ros2/chapter-1-ros2/setup",
+  "title": "ROS 2 Installation and Environment Setup",
+  "description": "This guide will help you set up your ROS 2 environment for the educational module. Follow these steps to ensure your system is properly configured for ROS 2 development.",
+  "source": "@site/docs/module-1-ros2/chapter-1-ros2/setup.md",
+  "sourceDirName": "module-1-ros2/chapter-1-ros2",
+  "slug": "/module-1-ros2/chapter-1-ros2/setup",
+  "permalink": "/docs/module-1-ros2/chapter-1-ros2/setup",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/module-1-ros2/chapter-1-ros2/setup.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "title": "ROS 2 Installation and Environment Setup",
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 1 - Fundamentals of ROS 2 Nodes, Topics, and Services",
+    "permalink": "/docs/module-1-ros2/chapter-1-ros2/"
+  },
+  "next": {
+    "title": "Introduction to ROS 2 Concepts",
+    "permalink": "/docs/module-1-ros2/chapter-1-ros2/introduction"
+  }
+}

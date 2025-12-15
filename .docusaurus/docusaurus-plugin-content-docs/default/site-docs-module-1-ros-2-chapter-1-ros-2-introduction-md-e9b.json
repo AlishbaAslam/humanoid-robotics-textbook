@@ -1,0 +1,28 @@
+{
+  "id": "module-1-ros2/chapter-1-ros2/introduction",
+  "title": "Introduction to ROS 2 Concepts",
+  "description": "This introduction covers the foundational concepts of ROS 2 (Robot Operating System 2) that you'll need to understand before diving deeper into the educational module. ROS 2 is a flexible framework for writing robot software, providing services designed for a heterogeneous computer cluster.",
+  "source": "@site/docs/module-1-ros2/chapter-1-ros2/introduction.md",
+  "sourceDirName": "module-1-ros2/chapter-1-ros2",
+  "slug": "/module-1-ros2/chapter-1-ros2/introduction",
+  "permalink": "/docs/module-1-ros2/chapter-1-ros2/introduction",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/module-1-ros2/chapter-1-ros2/introduction.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "title": "Introduction to ROS 2 Concepts",
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "ROS 2 Installation and Environment Setup",
+    "permalink": "/docs/module-1-ros2/chapter-1-ros2/setup"
+  },
+  "next": {
+    "title": "Exercise 1 - Basic Nodes, Topics, and Services",
+    "permalink": "/docs/module-1-ros2/chapter-1-ros2/exercise-1-basic-nodes"
+  }
+}

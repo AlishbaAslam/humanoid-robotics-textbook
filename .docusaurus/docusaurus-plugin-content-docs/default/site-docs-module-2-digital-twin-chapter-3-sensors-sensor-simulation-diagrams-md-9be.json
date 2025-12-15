@@ -1,0 +1,28 @@
+{
+  "id": "module-2-digital-twin/chapter-3-sensors/sensor-simulation-diagrams",
+  "title": "Sensor Simulation Diagrams and Screenshots",
+  "description": "Overview",
+  "source": "@site/docs/module-2-digital-twin/chapter-3-sensors/sensor-simulation-diagrams.md",
+  "sourceDirName": "module-2-digital-twin/chapter-3-sensors",
+  "slug": "/module-2-digital-twin/chapter-3-sensors/sensor-simulation-diagrams",
+  "permalink": "/docs/module-2-digital-twin/chapter-3-sensors/sensor-simulation-diagrams",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/module-2-digital-twin/chapter-3-sensors/sensor-simulation-diagrams.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "title": "Sensor Simulation Diagrams and Screenshots",
+    "sidebar_position": 7
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Exercise 3 - Complete Sensor Simulation Setup",
+    "permalink": "/docs/module-2-digital-twin/chapter-3-sensors/exercise-3-sensor-simulation"
+  },
+  "next": {
+    "title": "Sensor Data Validation and Comparison",
+    "permalink": "/docs/module-2-digital-twin/chapter-3-sensors/sensor-data-validation-comparison"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "module-2-digital-twin/digital-twin-citations",
+  "title": "Digital Twin Citations and References",
+  "description": "Overview",
+  "source": "@site/docs/module-2-digital-twin/digital-twin-citations.md",
+  "sourceDirName": "module-2-digital-twin",
+  "slug": "/module-2-digital-twin/digital-twin-citations",
+  "permalink": "/docs/module-2-digital-twin/digital-twin-citations",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/module-2-digital-twin/digital-twin-citations.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7,
+    "title": "Digital Twin Citations and References"
+  }
+}

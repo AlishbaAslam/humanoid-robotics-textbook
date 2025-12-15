@@ -1,0 +1,28 @@
+{
+  "id": "module-4-vla-educational-module/chapter-2-cognitive-planning/index",
+  "title": "Cognitive Planning - Using LLMs to Translate Natural Language into ROS 2 Actions",
+  "description": "Learn how to use Large Language Models for cognitive planning in robotics, translating natural language into ROS 2 actions",
+  "source": "@site/docs/module-4-vla-educational-module/chapter-2-cognitive-planning/index.md",
+  "sourceDirName": "module-4-vla-educational-module/chapter-2-cognitive-planning",
+  "slug": "/module-4-vla-educational-module/chapter-2-cognitive-planning/",
+  "permalink": "/docs/module-4-vla-educational-module/chapter-2-cognitive-planning/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/module-4-vla-educational-module/chapter-2-cognitive-planning/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Cognitive Planning - Using LLMs to Translate Natural Language into ROS 2 Actions",
+    "sidebar_label": "Cognitive Planning",
+    "description": "Learn how to use Large Language Models for cognitive planning in robotics, translating natural language into ROS 2 actions"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Voice-to-Action",
+    "permalink": "/docs/module-4-vla-educational-module/chapter-1-voice-to-action/"
+  },
+  "next": {
+    "title": "Capstone Project",
+    "permalink": "/docs/module-4-vla-educational-module/chapter-3-capstone-project/"
+  }
+}

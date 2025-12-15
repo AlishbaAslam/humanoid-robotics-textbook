@@ -1,0 +1,28 @@
+{
+  "id": "module-2-digital-twin/chapter-2-unity/unity-installation-setup",
+  "title": "Unity Installation and Setup for Robotics",
+  "description": "This guide provides comprehensive instructions for installing and setting up Unity specifically for robotics visualization and digital twin applications. We'll cover the installation process, robotics-specific packages, and configuration needed for high-fidelity rendering.",
+  "source": "@site/docs/module-2-digital-twin/chapter-2-unity/unity-installation-setup.md",
+  "sourceDirName": "module-2-digital-twin/chapter-2-unity",
+  "slug": "/module-2-digital-twin/chapter-2-unity/unity-installation-setup",
+  "permalink": "/docs/module-2-digital-twin/chapter-2-unity/unity-installation-setup",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/module-2-digital-twin/chapter-2-unity/unity-installation-setup.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "title": "Unity Installation and Setup for Robotics",
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 2 - High-Fidelity Rendering in Unity",
+    "permalink": "/docs/module-2-digital-twin/chapter-2-unity/"
+  },
+  "next": {
+    "title": "Robot Model Import and Setup Tutorial",
+    "permalink": "/docs/module-2-digital-twin/chapter-2-unity/robot-model-import-setup"
+  }
+}

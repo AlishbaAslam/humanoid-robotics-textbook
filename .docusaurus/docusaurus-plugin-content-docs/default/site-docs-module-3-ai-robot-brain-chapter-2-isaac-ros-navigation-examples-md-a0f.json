@@ -1,0 +1,28 @@
+{
+  "id": "module-3-ai-robot-brain/chapter-2-isaac-ros/navigation-examples",
+  "title": "Navigation Examples with Isaac ROS",
+  "description": "Overview",
+  "source": "@site/docs/module-3-ai-robot-brain/chapter-2-isaac-ros/navigation-examples.md",
+  "sourceDirName": "module-3-ai-robot-brain/chapter-2-isaac-ros",
+  "slug": "/module-3-ai-robot-brain/chapter-2-isaac-ros/navigation-examples",
+  "permalink": "/docs/module-3-ai-robot-brain/chapter-2-isaac-ros/navigation-examples",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/module-3-ai-robot-brain/chapter-2-isaac-ros/navigation-examples.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5,
+    "title": "Navigation Examples with Isaac ROS"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "VSLAM Implementation with Isaac ROS",
+    "permalink": "/docs/module-3-ai-robot-brain/chapter-2-isaac-ros/vslam-implementation"
+  },
+  "next": {
+    "title": "Exercise 2: Isaac ROS Implementation",
+    "permalink": "/docs/module-3-ai-robot-brain/chapter-2-isaac-ros/exercise-2"
+  }
+}

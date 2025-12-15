@@ -1,0 +1,28 @@
+{
+  "id": "module-2-digital-twin/chapter-2-unity/unity-documentation-citations",
+  "title": "Unity Documentation Citations",
+  "description": "This document provides citations to official Unity documentation and robotics packages used in the digital twin visualization chapter. These references support the technical content and provide additional resources for learners.",
+  "source": "@site/docs/module-2-digital-twin/chapter-2-unity/unity-documentation-citations.md",
+  "sourceDirName": "module-2-digital-twin/chapter-2-unity",
+  "slug": "/module-2-digital-twin/chapter-2-unity/unity-documentation-citations",
+  "permalink": "/docs/module-2-digital-twin/chapter-2-unity/unity-documentation-citations",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/module-2-digital-twin/chapter-2-unity/unity-documentation-citations.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 8,
+  "frontMatter": {
+    "title": "Unity Documentation Citations",
+    "sidebar_position": 8
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Optimization Techniques for High-Fidelity Rendering",
+    "permalink": "/docs/module-2-digital-twin/chapter-2-unity/optimization-techniques"
+  },
+  "next": {
+    "title": "Chapter 3 - Sensor Simulation in Digital Twins",
+    "permalink": "/docs/module-2-digital-twin/chapter-3-sensors/"
+  }
+}

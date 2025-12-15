@@ -1,0 +1,28 @@
+{
+  "id": "module-1-ros2/chapter-3-urdf-modeling/exercise-3-urdf-modeling",
+  "title": "Exercise 3 - Humanoid Robot Modeling with URDF",
+  "description": "In this exercise, you'll create your own humanoid robot model using URDF (Unified Robot Description Format). You'll learn how to define links, joints, and materials to create a complete robot model that can be visualized and simulated.",
+  "source": "@site/docs/module-1-ros2/chapter-3-urdf-modeling/exercise-3-urdf-modeling.md",
+  "sourceDirName": "module-1-ros2/chapter-3-urdf-modeling",
+  "slug": "/module-1-ros2/chapter-3-urdf-modeling/exercise-3-urdf-modeling",
+  "permalink": "/docs/module-1-ros2/chapter-3-urdf-modeling/exercise-3-urdf-modeling",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/module-1-ros2/chapter-3-urdf-modeling/exercise-3-urdf-modeling.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "title": "Exercise 3 - Humanoid Robot Modeling with URDF",
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 3 - Modeling Humanoid Robots with URDF",
+    "permalink": "/docs/module-1-ros2/chapter-3-urdf-modeling/"
+  },
+  "next": {
+    "title": "Complete ROS 2 Integration - All Concepts Combined",
+    "permalink": "/docs/module-1-ros2/chapter-3-urdf-modeling/complete_integration"
+  }
+}

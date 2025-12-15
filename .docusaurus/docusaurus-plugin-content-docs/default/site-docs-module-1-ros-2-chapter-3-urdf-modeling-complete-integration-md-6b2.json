@@ -1,0 +1,28 @@
+{
+  "id": "module-1-ros2/chapter-3-urdf-modeling/complete_integration",
+  "title": "Complete ROS 2 Integration - All Concepts Combined",
+  "description": "This document demonstrates how all three chapters work together in a complete ROS 2 system. We'll show how ROS 2 fundamentals, Python agent integration, and URDF modeling concepts integrate to create a functional robotic system.",
+  "source": "@site/docs/module-1-ros2/chapter-3-urdf-modeling/complete_integration.md",
+  "sourceDirName": "module-1-ros2/chapter-3-urdf-modeling",
+  "slug": "/module-1-ros2/chapter-3-urdf-modeling/complete_integration",
+  "permalink": "/docs/module-1-ros2/chapter-3-urdf-modeling/complete_integration",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/module-1-ros2/chapter-3-urdf-modeling/complete_integration.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "title": "Complete ROS 2 Integration - All Concepts Combined",
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Exercise 3 - Humanoid Robot Modeling with URDF",
+    "permalink": "/docs/module-1-ros2/chapter-3-urdf-modeling/exercise-3-urdf-modeling"
+  },
+  "next": {
+    "title": "Module Summary - The Robotic Nervous System",
+    "permalink": "/docs/module-1-ros2/chapter-3-urdf-modeling/final_summary"
+  }
+}

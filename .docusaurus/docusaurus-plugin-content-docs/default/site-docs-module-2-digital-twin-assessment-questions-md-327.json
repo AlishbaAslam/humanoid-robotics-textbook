@@ -1,0 +1,19 @@
+{
+  "id": "module-2-digital-twin/assessment-questions",
+  "title": "Assessment Questions",
+  "description": "Overview",
+  "source": "@site/docs/module-2-digital-twin/assessment-questions.md",
+  "sourceDirName": "module-2-digital-twin",
+  "slug": "/module-2-digital-twin/assessment-questions",
+  "permalink": "/docs/module-2-digital-twin/assessment-questions",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/module-2-digital-twin/assessment-questions.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 10,
+  "frontMatter": {
+    "sidebar_position": 10,
+    "title": "Assessment Questions"
+  }
+}

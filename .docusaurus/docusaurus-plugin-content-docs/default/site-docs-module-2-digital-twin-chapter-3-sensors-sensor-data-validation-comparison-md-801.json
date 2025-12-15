@@ -1,0 +1,28 @@
+{
+  "id": "module-2-digital-twin/chapter-3-sensors/sensor-data-validation-comparison",
+  "title": "Sensor Data Validation and Comparison",
+  "description": "Overview",
+  "source": "@site/docs/module-2-digital-twin/chapter-3-sensors/sensor-data-validation-comparison.md",
+  "sourceDirName": "module-2-digital-twin/chapter-3-sensors",
+  "slug": "/module-2-digital-twin/chapter-3-sensors/sensor-data-validation-comparison",
+  "permalink": "/docs/module-2-digital-twin/chapter-3-sensors/sensor-data-validation-comparison",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/module-2-digital-twin/chapter-3-sensors/sensor-data-validation-comparison.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 8,
+  "frontMatter": {
+    "title": "Sensor Data Validation and Comparison",
+    "sidebar_position": 8
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Sensor Simulation Diagrams and Screenshots",
+    "permalink": "/docs/module-2-digital-twin/chapter-3-sensors/sensor-simulation-diagrams"
+  },
+  "next": {
+    "title": "Sensor Fusion in Digital Twins",
+    "permalink": "/docs/module-2-digital-twin/chapter-3-sensors/sensor-fusion-digital-twin"
+  }
+}

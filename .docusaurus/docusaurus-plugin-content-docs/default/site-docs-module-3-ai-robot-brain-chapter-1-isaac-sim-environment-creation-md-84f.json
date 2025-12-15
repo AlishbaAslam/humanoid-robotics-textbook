@@ -1,0 +1,28 @@
+{
+  "id": "module-3-ai-robot-brain/chapter-1-isaac-sim/environment-creation",
+  "title": "Environment Creation in Isaac Sim",
+  "description": "Overview",
+  "source": "@site/docs/module-3-ai-robot-brain/chapter-1-isaac-sim/environment-creation.md",
+  "sourceDirName": "module-3-ai-robot-brain/chapter-1-isaac-sim",
+  "slug": "/module-3-ai-robot-brain/chapter-1-isaac-sim/environment-creation",
+  "permalink": "/docs/module-3-ai-robot-brain/chapter-1-isaac-sim/environment-creation",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/module-3-ai-robot-brain/chapter-1-isaac-sim/environment-creation.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "title": "Environment Creation in Isaac Sim"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Isaac Sim Installation and Setup Guide",
+    "permalink": "/docs/module-3-ai-robot-brain/chapter-1-isaac-sim/setup-guide"
+  },
+  "next": {
+    "title": "Synthetic Data Generation",
+    "permalink": "/docs/module-3-ai-robot-brain/chapter-1-isaac-sim/synthetic-data-generation"
+  }
+}

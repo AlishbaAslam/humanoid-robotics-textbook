@@ -1,0 +1,19 @@
+{
+  "id": "module-2-digital-twin/accessibility-guide",
+  "title": "Accessibility and Alternative Explanations",
+  "description": "Overview",
+  "source": "@site/docs/module-2-digital-twin/accessibility-guide.md",
+  "sourceDirName": "module-2-digital-twin",
+  "slug": "/module-2-digital-twin/accessibility-guide",
+  "permalink": "/docs/module-2-digital-twin/accessibility-guide",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/module-2-digital-twin/accessibility-guide.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "title": "Accessibility and Alternative Explanations"
+  }
+}

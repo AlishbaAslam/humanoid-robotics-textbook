@@ -1,0 +1,19 @@
+{
+  "id": "module-2-digital-twin/summary-and-next-steps",
+  "title": "Summary and Next Steps",
+  "description": "Module Summary",
+  "source": "@site/docs/module-2-digital-twin/summary-and-next-steps.md",
+  "sourceDirName": "module-2-digital-twin",
+  "slug": "/module-2-digital-twin/summary-and-next-steps",
+  "permalink": "/docs/module-2-digital-twin/summary-and-next-steps",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/module-2-digital-twin/summary-and-next-steps.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 8,
+  "frontMatter": {
+    "sidebar_position": 8,
+    "title": "Summary and Next Steps"
+  }
+}

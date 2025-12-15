@@ -1,0 +1,28 @@
+{
+  "id": "module-2-digital-twin/references",
+  "title": "References and Documentation",
+  "description": "This page contains the official documentation and research sources referenced throughout the digital twin educational module. These resources provide authoritative information on Gazebo, Unity, and their integration for robotics applications.",
+  "source": "@site/docs/module-2-digital-twin/references.md",
+  "sourceDirName": "module-2-digital-twin",
+  "slug": "/module-2-digital-twin/references",
+  "permalink": "/docs/module-2-digital-twin/references",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/module-2-digital-twin/references.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 99,
+  "frontMatter": {
+    "title": "References and Documentation",
+    "sidebar_position": 99
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "ROS Integration Examples for Robot Control",
+    "permalink": "/docs/module-2-digital-twin/chapter-1-gazebo/ros-integration-examples"
+  },
+  "next": {
+    "title": "Hands-On Exercise Template",
+    "permalink": "/docs/module-2-digital-twin/exercise-template"
+  }
+}

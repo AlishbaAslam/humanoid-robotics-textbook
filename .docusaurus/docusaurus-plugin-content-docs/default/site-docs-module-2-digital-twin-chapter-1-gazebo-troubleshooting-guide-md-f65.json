@@ -1,0 +1,28 @@
+{
+  "id": "module-2-digital-twin/chapter-1-gazebo/troubleshooting-guide",
+  "title": "Troubleshooting Guide for Common Gazebo Issues",
+  "description": "This comprehensive troubleshooting guide addresses common issues encountered when working with Gazebo for digital twin applications. The guide is organized by issue category with detailed solutions and preventive measures.",
+  "source": "@site/docs/module-2-digital-twin/chapter-1-gazebo/troubleshooting-guide.md",
+  "sourceDirName": "module-2-digital-twin/chapter-1-gazebo",
+  "slug": "/module-2-digital-twin/chapter-1-gazebo/troubleshooting-guide",
+  "permalink": "/docs/module-2-digital-twin/chapter-1-gazebo/troubleshooting-guide",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/module-2-digital-twin/chapter-1-gazebo/troubleshooting-guide.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 10,
+  "frontMatter": {
+    "title": "Troubleshooting Guide for Common Gazebo Issues",
+    "sidebar_position": 10
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Gazebo Plugins and Custom Environments Code Examples",
+    "permalink": "/docs/module-2-digital-twin/chapter-1-gazebo/gazebo-plugins-examples"
+  },
+  "next": {
+    "title": "Chapter 1 Citations and References",
+    "permalink": "/docs/module-2-digital-twin/chapter-1-gazebo/citations"
+  }
+}

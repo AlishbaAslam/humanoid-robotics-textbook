@@ -1,0 +1,28 @@
+{
+  "id": "module-2-digital-twin/cross-platform-considerations",
+  "title": "Cross-Platform Compatibility Considerations",
+  "description": "When building digital twin systems that integrate Gazebo and Unity, cross-platform compatibility is crucial for ensuring your simulations work consistently across different operating systems and hardware configurations. This document outlines key considerations and best practices for maintaining compatibility.",
+  "source": "@site/docs/module-2-digital-twin/cross-platform-considerations.md",
+  "sourceDirName": "module-2-digital-twin",
+  "slug": "/module-2-digital-twin/cross-platform-considerations",
+  "permalink": "/docs/module-2-digital-twin/cross-platform-considerations",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/module-2-digital-twin/cross-platform-considerations.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "title": "Cross-Platform Compatibility Considerations",
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "ROS Integration Examples for Robot Control",
+    "permalink": "/docs/module-2-digital-twin/chapter-1-gazebo/ros-integration-examples"
+  },
+  "next": {
+    "title": "References and Documentation",
+    "permalink": "/docs/module-2-digital-twin/references"
+  }
+}

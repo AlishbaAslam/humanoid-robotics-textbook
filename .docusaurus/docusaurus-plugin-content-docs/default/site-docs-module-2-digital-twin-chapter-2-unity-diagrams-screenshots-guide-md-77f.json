@@ -1,0 +1,28 @@
+{
+  "id": "module-2-digital-twin/chapter-2-unity/diagrams-screenshots-guide",
+  "title": "Unity Setup Diagrams and Screenshots Guide",
+  "description": "This document describes the diagrams and screenshots that should be included in the Unity visualization chapter to enhance learning and understanding. These visual aids provide clarity to complex concepts and help learners visualize the setup and configuration processes.",
+  "source": "@site/docs/module-2-digital-twin/chapter-2-unity/diagrams-screenshots-guide.md",
+  "sourceDirName": "module-2-digital-twin/chapter-2-unity",
+  "slug": "/module-2-digital-twin/chapter-2-unity/diagrams-screenshots-guide",
+  "permalink": "/docs/module-2-digital-twin/chapter-2-unity/diagrams-screenshots-guide",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/module-2-digital-twin/chapter-2-unity/diagrams-screenshots-guide.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "title": "Unity Setup Diagrams and Screenshots Guide",
+    "sidebar_position": 7
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Exercise 2 - Unity Robot Visualization",
+    "permalink": "/docs/module-2-digital-twin/chapter-2-unity/exercise-2-unity-visualization"
+  },
+  "next": {
+    "title": "Unity-ROS Integration Code Examples",
+    "permalink": "/docs/module-2-digital-twin/chapter-2-unity/unity-ros-integration-examples"
+  }
+}

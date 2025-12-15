@@ -1,0 +1,45 @@
+import clsx from 'clsx';
+import Link from '@docusaurus/Link';
+import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+import Layout from '@theme/Layout';
+import HomepageFeatures from '@site/src/components/HomepageFeatures';
+
+import Heading from '@theme/Heading';
+import styles from './index.module.css';
+
+function HomepageHeader() {
+  const {siteConfig} = useDocusaurusContext();
+  return (
+    <header className={clsx('hero hero--primary', styles.heroBanner)}>
+      <div className="container">
+        <div className="hero__title-container">
+          <Heading as="h1" className="hero__title">
+            Physical AI & Humanoid Robotics Textbook
+          </Heading>
+        </div>
+        <p className="hero__subtitle">A textbook covering Physical AI, Robotics, Control, Simulation, and Real-World Embodiment</p>
+        <div className={clsx(styles.buttons, styles.heroButtons)}>
+          <Link
+            className="button button--secondary button--lg"
+            to="/docs/physical-ai-intro/introduction">
+            Start Reading
+          </Link>
+        </div>
+      </div>
+    </header>
+  );
+}
+
+export default function Home() {
+  const {siteConfig} = useDocusaurusContext();
+  return (
+    <Layout
+      title={`Home | ${siteConfig.title}`}
+      description="Physical AI & Humanoid Robotics textbook - Learn to create digital twins with Gazebo and Unity">
+      <HomepageHeader />
+      <main>
+        <HomepageFeatures />
+      </main>
+    </Layout>
+  );
+}

@@ -1,0 +1,580 @@
+{
+  "/__docusaurus/debug-5ff": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/__docusaurus/debug/config-5ba": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/__docusaurus/debug/content-a2b": {
+    "__comp": "__comp---theme-debug-contentba-8-ce7",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    },
+    "__props": "__props---docusaurus-debug-content-3-c-0-be2"
+  },
+  "/__docusaurus/debug/globalData-c3c": {
+    "__comp": "__comp---theme-debug-global-dataede-0fa",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/__docusaurus/debug/metadata-156": {
+    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/__docusaurus/debug/registry-88c": {
+    "__comp": "__comp---theme-debug-registry-679-501",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/__docusaurus/debug/routes-000": {
+    "__comp": "__comp---theme-debug-routes-946-699",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/blog-b2f": {
+    "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blog-766-e3c"
+      },
+      {
+        "content": "content---blogf-4-f-cd7"
+      },
+      {
+        "content": "content---blog-871-381"
+      },
+      {
+        "content": "content---blog-925-e00"
+      }
+    ],
+    "__props": "__props---blogc-15-573"
+  },
+  "/blog/archive-182": {
+    "__comp": "__comp---theme-blog-archive-page-9-e-4-1d8",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "__props": "__props---blog-archivef-81-229"
+  },
+  "/blog/authors-0b7": {
+    "__comp": "__comp---theme-blog-pages-blog-authors-list-page-621-70c",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---blog-authorsace-e7d"
+      },
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "__props": "__props---blog-authorsef-8-44f"
+  },
+  "/blog/authors/all-sebastien-lorber-articles-4a1": {
+    "__comp": "__comp---theme-blog-pages-blog-authors-posts-page-33-f-bd5",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---blog-authorsace-e7d"
+      },
+      "plugin": "plugin---blog-369-22e"
+    },
+    "items": [
+      {
+        "content": "content---blog-766-e3c"
+      },
+      {
+        "content": "content---blogf-4-f-cd7"
+      },
+      {
+        "content": "content---blog-925-e00"
+      }
+    ],
+    "sidebar": "sidebar---blog-814-8ac",
+    "__props": "__props---blog-authors-all-sebastien-lorber-articlesc-9-c-639"
+  },
+  "/blog/authors/yangshun-a68": {
+    "__comp": "__comp---theme-blog-pages-blog-authors-posts-page-33-f-bd5",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---blog-authorsace-e7d"
+      },
+      "plugin": "plugin---blog-369-22e"
+    },
+    "items": [
+      {
+        "content": "content---blog-766-e3c"
+      },
+      {
+        "content": "content---blog-871-381"
+      },
+      {
+        "content": "content---blog-925-e00"
+      }
+    ],
+    "sidebar": "sidebar---blog-814-8ac",
+    "__props": "__props---blog-authors-yangshun-1-de-d0c"
+  },
+  "/blog/first-blog-post-89a": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---blog-authorsace-e7d"
+      },
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "content": "content---blog-first-blog-poste-27-4a1"
+  },
+  "/blog/long-blog-post-9ad": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---blog-authorsace-e7d"
+      },
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "content": "content---blog-long-blog-post-736-bc7"
+  },
+  "/blog/mdx-blog-post-e9f": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---blog-authorsace-e7d"
+      },
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "content": "content---blog-mdx-blog-post-593-37b"
+  },
+  "/blog/tags-287": {
+    "__comp": "__comp---theme-blog-tags-list-page-01-a-d0b",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "__props": "__props---blog-tags-3-a-2-fa2"
+  },
+  "/blog/tags/docusaurus-704": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blog-766-e3c"
+      },
+      {
+        "content": "content---blogf-4-f-cd7"
+      },
+      {
+        "content": "content---blog-871-381"
+      },
+      {
+        "content": "content---blog-925-e00"
+      }
+    ],
+    "__props": "__props---blog-tags-docusaurus-321-832"
+  },
+  "/blog/tags/facebook-858": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blog-766-e3c"
+      }
+    ],
+    "__props": "__props---blog-tags-facebooke-5-a-514"
+  },
+  "/blog/tags/hello-299": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blog-766-e3c"
+      },
+      {
+        "content": "content---blog-871-381"
+      }
+    ],
+    "__props": "__props---blog-tags-hellof-82-2fd"
+  },
+  "/blog/tags/hola-00d": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blog-925-e00"
+      }
+    ],
+    "__props": "__props---blog-tags-hola-5-e-9-9a3"
+  },
+  "/blog/welcome-d2b": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---blog-authorsace-e7d"
+      },
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "content": "content---blog-welcomed-9-f-ffb"
+  },
+  "/markdown-page-3d7": {
+    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__context": {
+      "plugin": "plugin---markdown-pagea-74-7b5"
+    },
+    "content": "content---markdown-page-393-028"
+  },
+  "/docs-068": {
+    "__comp": "__comp---theme-docs-root-5-e-9-0b6",
+    "__context": {
+      "plugin": "plugin---docsaba-d7c"
+    }
+  },
+  "/docs-ec3": {
+    "__comp": "__comp---theme-doc-version-roota-7-b-5de",
+    "__props": "__props---docs-005-788"
+  },
+  "/docs-3b3": {
+    "__comp": "__comp---theme-doc-roota-94-67a"
+  },
+  "/docs/module-1-ros2/chapter-1-ros2/-e19": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-1-ros-2-chapter-1-ros-2-663-4c3"
+  },
+  "/docs/module-1-ros2/chapter-1-ros2/exercise-1-basic-nodes-82f": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-1-ros-2-chapter-1-ros-2-exercise-1-basic-nodes-260-566"
+  },
+  "/docs/module-1-ros2/chapter-1-ros2/introduction-b11": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-1-ros-2-chapter-1-ros-2-introductione-9-b-b07"
+  },
+  "/docs/module-1-ros2/chapter-1-ros2/setup-70a": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-1-ros-2-chapter-1-ros-2-setup-5-bd-ea5"
+  },
+  "/docs/module-1-ros2/chapter-2-python-agents/-33e": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-1-ros-2-chapter-2-python-agents-0-db-f10"
+  },
+  "/docs/module-1-ros2/chapter-2-python-agents/exercise-2-python-integration-4f9": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-1-ros-2-chapter-2-python-agents-exercise-2-python-integrationa-4-e-070"
+  },
+  "/docs/module-1-ros2/chapter-3-urdf-modeling/-bd6": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-1-ros-2-chapter-3-urdf-modeling-6-bd-751"
+  },
+  "/docs/module-1-ros2/chapter-3-urdf-modeling/complete_integration-23c": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-1-ros-2-chapter-3-urdf-modeling-complete-integration-6-b-2-86a"
+  },
+  "/docs/module-1-ros2/chapter-3-urdf-modeling/exercise-3-urdf-modeling-365": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-1-ros-2-chapter-3-urdf-modeling-exercise-3-urdf-modeling-74-a-328"
+  },
+  "/docs/module-1-ros2/chapter-3-urdf-modeling/final_summary-450": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-1-ros-2-chapter-3-urdf-modeling-final-summary-809-f75"
+  },
+  "/docs/module-2-digital-twin/accessibility-guide-bc4": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-2-digital-twin-accessibility-guide-785-894"
+  },
+  "/docs/module-2-digital-twin/assessment-questions-fec": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-2-digital-twin-assessment-questions-327-690"
+  },
+  "/docs/module-2-digital-twin/chapter-1-gazebo/-75c": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-2-digital-twin-chapter-1-gazebo-be-5-86a"
+  },
+  "/docs/module-2-digital-twin/chapter-1-gazebo/citations-25d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-2-digital-twin-chapter-1-gazebo-citations-11-d-1e9"
+  },
+  "/docs/module-2-digital-twin/chapter-1-gazebo/diagrams-and-screenshots-guide-dbc": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-2-digital-twin-chapter-1-gazebo-diagrams-and-screenshots-guidef-06-c53"
+  },
+  "/docs/module-2-digital-twin/chapter-1-gazebo/exercise-1-basic-robot-935": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-2-digital-twin-chapter-1-gazebo-exercise-1-basic-robot-5-e-8-766"
+  },
+  "/docs/module-2-digital-twin/chapter-1-gazebo/gazebo-plugins-examples-d81": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-2-digital-twin-chapter-1-gazebo-gazebo-plugins-examples-12-b-635"
+  },
+  "/docs/module-2-digital-twin/chapter-1-gazebo/gazebo-setup-guide-37b": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-2-digital-twin-chapter-1-gazebo-gazebo-setup-guide-761-bfd"
+  },
+  "/docs/module-2-digital-twin/chapter-1-gazebo/troubleshooting-guide-a90": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-2-digital-twin-chapter-1-gazebo-troubleshooting-guidef-65-a1f"
+  },
+  "/docs/module-2-digital-twin/chapter-2-unity/-568": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-2-digital-twin-chapter-2-unity-16-c-4e6"
+  },
+  "/docs/module-2-digital-twin/chapter-2-unity/diagrams-screenshots-guide-821": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-2-digital-twin-chapter-2-unity-diagrams-screenshots-guide-77-f-ff9"
+  },
+  "/docs/module-2-digital-twin/chapter-2-unity/exercise-2-unity-visualization-cef": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-2-digital-twin-chapter-2-unity-exercise-2-unity-visualization-6-ac-9d8"
+  },
+  "/docs/module-2-digital-twin/chapter-2-unity/material-lighting-setup-c37": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-2-digital-twin-chapter-2-unity-material-lighting-setup-676-431"
+  },
+  "/docs/module-2-digital-twin/chapter-2-unity/optimization-techniques-fc5": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-2-digital-twin-chapter-2-unity-optimization-techniques-05-b-c43"
+  },
+  "/docs/module-2-digital-twin/chapter-2-unity/robot-model-import-setup-c2d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-2-digital-twin-chapter-2-unity-robot-model-import-setup-8-c-4-88f"
+  },
+  "/docs/module-2-digital-twin/chapter-2-unity/unity-documentation-citations-115": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-2-digital-twin-chapter-2-unity-unity-documentation-citations-9-dd-5cd"
+  },
+  "/docs/module-2-digital-twin/chapter-2-unity/unity-installation-setup-8a1": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-2-digital-twin-chapter-2-unity-unity-installation-setup-2-d-9-878"
+  },
+  "/docs/module-2-digital-twin/chapter-2-unity/unity-ros-integration-examples-6c9": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-2-digital-twin-chapter-2-unity-unity-ros-integration-examples-981-9b6"
+  },
+  "/docs/module-2-digital-twin/chapter-2-unity/user-interface-controls-32e": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-2-digital-twin-chapter-2-unity-user-interface-controlsf-80-b2f"
+  },
+  "/docs/module-2-digital-twin/chapter-3-sensors/-ea4": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-2-digital-twin-chapter-3-sensors-43-d-800"
+  },
+  "/docs/module-2-digital-twin/chapter-3-sensors/depth-camera-simulation-aad": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-2-digital-twin-chapter-3-sensors-depth-camera-simulation-3-f-9-3cb"
+  },
+  "/docs/module-2-digital-twin/chapter-3-sensors/exercise-3-sensor-simulation-35c": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-2-digital-twin-chapter-3-sensors-exercise-3-sensor-simulation-39-b-f31"
+  },
+  "/docs/module-2-digital-twin/chapter-3-sensors/imu-simulation-8af": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-2-digital-twin-chapter-3-sensors-imu-simulation-851-ca8"
+  },
+  "/docs/module-2-digital-twin/chapter-3-sensors/lidar-simulation-tutorial-916": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-2-digital-twin-chapter-3-sensors-lidar-simulation-tutorial-38-e-8f5"
+  },
+  "/docs/module-2-digital-twin/chapter-3-sensors/sensor-data-processing-ros-72d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-2-digital-twin-chapter-3-sensors-sensor-data-processing-rosf-7-c-d43"
+  },
+  "/docs/module-2-digital-twin/chapter-3-sensors/sensor-data-validation-comparison-8a6": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-2-digital-twin-chapter-3-sensors-sensor-data-validation-comparison-801-fa4"
+  },
+  "/docs/module-2-digital-twin/chapter-3-sensors/sensor-fusion-digital-twin-ebf": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-2-digital-twin-chapter-3-sensors-sensor-fusion-digital-twine-8-d-b0a"
+  },
+  "/docs/module-2-digital-twin/chapter-3-sensors/sensor-simulation-diagrams-027": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-2-digital-twin-chapter-3-sensors-sensor-simulation-diagrams-9-be-6ce"
+  },
+  "/docs/module-2-digital-twin/chapter-3-sensors/sensor-simulation-research-citations-a34": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-2-digital-twin-chapter-3-sensors-sensor-simulation-research-citations-377-f29"
+  },
+  "/docs/module-2-digital-twin/complete-digital-twin-example-f05": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-2-digital-twin-complete-digital-twin-exampled-39-d59"
+  },
+  "/docs/module-2-digital-twin/cross-chapter-exercises-623": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-2-digital-twin-cross-chapter-exercisesa-52-25a"
+  },
+  "/docs/module-2-digital-twin/digital-twin-citations-8b1": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-2-digital-twin-digital-twin-citations-84-b-1c8"
+  },
+  "/docs/module-2-digital-twin/integration-guide-ab1": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-2-digital-twin-integration-guideb-25-388"
+  },
+  "/docs/module-2-digital-twin/summary-and-next-steps-8b2": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-2-digital-twin-summary-and-next-steps-82-b-519"
+  },
+  "/docs/module-2-digital-twin/troubleshooting-integration-99c": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-2-digital-twin-troubleshooting-integrationd-21-f30"
+  },
+  "/docs/module-3-ai-robot-brain/chapter-1-isaac-sim/-92c": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-3-ai-robot-brain-chapter-1-isaac-sim-d-85-ef9"
+  },
+  "/docs/module-3-ai-robot-brain/chapter-1-isaac-sim/citations-ba1": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-3-ai-robot-brain-chapter-1-isaac-sim-citations-79-b-fe1"
+  },
+  "/docs/module-3-ai-robot-brain/chapter-1-isaac-sim/code-examples-910": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-3-ai-robot-brain-chapter-1-isaac-sim-code-examplese-76-b5e"
+  },
+  "/docs/module-3-ai-robot-brain/chapter-1-isaac-sim/cross-platform-considerations-aba": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-3-ai-robot-brain-chapter-1-isaac-sim-cross-platform-considerations-1-a-2-525"
+  },
+  "/docs/module-3-ai-robot-brain/chapter-1-isaac-sim/diagrams-42f": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-3-ai-robot-brain-chapter-1-isaac-sim-diagramsf-0-d-966"
+  },
+  "/docs/module-3-ai-robot-brain/chapter-1-isaac-sim/environment-creation-0cb": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-3-ai-robot-brain-chapter-1-isaac-sim-environment-creation-84-f-62d"
+  },
+  "/docs/module-3-ai-robot-brain/chapter-1-isaac-sim/exercise-1-631": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-3-ai-robot-brain-chapter-1-isaac-sim-exercise-1-ea-1-d77"
+  },
+  "/docs/module-3-ai-robot-brain/chapter-1-isaac-sim/exercise-template-e51": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-3-ai-robot-brain-chapter-1-isaac-sim-exercise-templateca-6-134"
+  },
+  "/docs/module-3-ai-robot-brain/chapter-1-isaac-sim/integration-examples-2a1": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-3-ai-robot-brain-chapter-1-isaac-sim-integration-examples-5-a-5-10a"
+  },
+  "/docs/module-3-ai-robot-brain/chapter-1-isaac-sim/setup-guide-c6b": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-3-ai-robot-brain-chapter-1-isaac-sim-setup-guideab-0-73b"
+  },
+  "/docs/module-3-ai-robot-brain/chapter-1-isaac-sim/synthetic-data-generation-c41": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-3-ai-robot-brain-chapter-1-isaac-sim-synthetic-data-generation-739-93d"
+  },
+  "/docs/module-3-ai-robot-brain/chapter-1-isaac-sim/template-cb7": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-3-ai-robot-brain-chapter-1-isaac-sim-templated-6-e-42f"
+  },
+  "/docs/module-3-ai-robot-brain/chapter-1-isaac-sim/troubleshooting-82a": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-3-ai-robot-brain-chapter-1-isaac-sim-troubleshootingaef-e9e"
+  },
+  "/docs/module-3-ai-robot-brain/chapter-2-isaac-ros/-a9d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-3-ai-robot-brain-chapter-2-isaac-ros-b-76-49c"
+  },
+  "/docs/module-3-ai-robot-brain/chapter-2-isaac-ros/assessment-d49": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-3-ai-robot-brain-chapter-2-isaac-ros-assessment-800-cf1"
+  },
+  "/docs/module-3-ai-robot-brain/chapter-2-isaac-ros/code-examples-df8": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-3-ai-robot-brain-chapter-2-isaac-ros-code-examplese-30-b37"
+  },
+  "/docs/module-3-ai-robot-brain/chapter-2-isaac-ros/component-configuration-7c1": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-3-ai-robot-brain-chapter-2-isaac-ros-component-configuration-85-f-cf0"
+  },
+  "/docs/module-3-ai-robot-brain/chapter-2-isaac-ros/diagrams-6e7": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-3-ai-robot-brain-chapter-2-isaac-ros-diagrams-9-de-ab8"
+  },
+  "/docs/module-3-ai-robot-brain/chapter-2-isaac-ros/exercise-2-861": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-3-ai-robot-brain-chapter-2-isaac-ros-exercise-29-e-8-08a"
+  },
+  "/docs/module-3-ai-robot-brain/chapter-2-isaac-ros/glossary-96b": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-3-ai-robot-brain-chapter-2-isaac-ros-glossarya-7-c-cd3"
+  },
+  "/docs/module-3-ai-robot-brain/chapter-2-isaac-ros/navigation-examples-2d9": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-3-ai-robot-brain-chapter-2-isaac-ros-navigation-examplesa-0-f-507"
+  },
+  "/docs/module-3-ai-robot-brain/chapter-2-isaac-ros/setup-guide-0f7": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-3-ai-robot-brain-chapter-2-isaac-ros-setup-guidee-00-97e"
+  },
+  "/docs/module-3-ai-robot-brain/chapter-2-isaac-ros/summary-5da": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-3-ai-robot-brain-chapter-2-isaac-ros-summary-608-6ae"
+  },
+  "/docs/module-3-ai-robot-brain/chapter-2-isaac-ros/troubleshooting-365": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-3-ai-robot-brain-chapter-2-isaac-ros-troubleshooting-0-e-9-4c8"
+  },
+  "/docs/module-3-ai-robot-brain/chapter-2-isaac-ros/vslam-implementation-cf8": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-3-ai-robot-brain-chapter-2-isaac-ros-vslam-implementation-41-f-33e"
+  },
+  "/docs/module-3-ai-robot-brain/chapter-3-nav2-humanoid/-b6b": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-3-ai-robot-brain-chapter-3-nav-2-humanoid-fe-6-2af"
+  },
+  "/docs/module-3-ai-robot-brain/chapter-3-nav2-humanoid/humanoid-config-8a5": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-3-ai-robot-brain-chapter-3-nav-2-humanoid-humanoid-config-81-e-06c"
+  },
+  "/docs/module-3-ai-robot-brain/chapter-3-nav2-humanoid/setup-guide-10c": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-3-ai-robot-brain-chapter-3-nav-2-humanoid-setup-guide-12-d-7c1"
+  },
+  "/docs/module-4-vla-educational-module/chapter-1-voice-to-action/-332": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-4-vla-educational-module-chapter-1-voice-to-action-154-5c4"
+  },
+  "/docs/module-4-vla-educational-module/chapter-2-cognitive-planning/-f41": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-4-vla-educational-module-chapter-2-cognitive-planning-6-bd-f33"
+  },
+  "/docs/module-4-vla-educational-module/chapter-3-capstone-project/-eef": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-4-vla-educational-module-chapter-3-capstone-project-19-d-5d2"
+  },
+  "/docs/physical-ai-intro/introduction-d62": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-physical-ai-intro-introductionb-60-9d3"
+  },
+  "/-2e1": {
+    "__comp": "__comp---site-src-pages-index-jsc-4-f-f99",
+    "__context": {
+      "plugin": "plugin---markdown-pagea-74-7b5"
+    },
+    "config": "config---5-e-9-4f3"
+  }
+}

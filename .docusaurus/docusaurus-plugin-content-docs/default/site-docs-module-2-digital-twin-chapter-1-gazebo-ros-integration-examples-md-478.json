@@ -1,0 +1,24 @@
+{
+  "id": "module-2-digital-twin/chapter-1-gazebo/ros-integration-examples",
+  "title": "ROS Integration Examples for Robot Control",
+  "description": "This section provides practical examples of integrating ROS with Gazebo for robot control. You'll learn how to control simulated robots using ROS topics, services, and actions, enabling the creation of sophisticated digital twin systems.",
+  "source": "@site/docs/module-2-digital-twin/chapter-1-gazebo/ros-integration-examples.md",
+  "sourceDirName": "module-2-digital-twin/chapter-1-gazebo",
+  "slug": "/module-2-digital-twin/chapter-1-gazebo/ros-integration-examples",
+  "permalink": "/docs/module-2-digital-twin/chapter-1-gazebo/ros-integration-examples",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/module-2-digital-twin/chapter-1-gazebo/ros-integration-examples.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "title": "ROS Integration Examples for Robot Control",
+    "sidebar_position": 6
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Physics Property Configuration and Tuning",
+    "permalink": "/docs/module-2-digital-twin/chapter-1-gazebo/physics-configuration"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "module-1-ros2-weeks-3-5/module-1-ros2/exercises/exercise-5-sensor-processing",
+  "title": "Exercise 5 - Sensor Data Processing",
+  "description": "Objective",
+  "source": "@site/docs/module-1-ros2-weeks-3-5/module-1-ros2/exercises/exercise-5-sensor-processing.md",
+  "sourceDirName": "module-1-ros2-weeks-3-5/module-1-ros2/exercises",
+  "slug": "/module-1-ros2-weeks-3-5/module-1-ros2/exercises/exercise-5-sensor-processing",
+  "permalink": "/docs/module-1-ros2-weeks-3-5/module-1-ros2/exercises/exercise-5-sensor-processing",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/module-1-ros2-weeks-3-5/module-1-ros2/exercises/exercise-5-sensor-processing.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "title": "Exercise 5 - Sensor Data Processing",
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Exercise 4 - Basic Python Agent Integration",
+    "permalink": "/docs/module-1-ros2-weeks-3-5/module-1-ros2/exercises/exercise-4-python-agent-basic"
+  },
+  "next": {
+    "title": "Exercise 1: Basic Nodes",
+    "permalink": "/docs/module-1-ros2-weeks-3-5/module-1-ros2/exercises/exercise-1-basic-nodes"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "module-3-ai-robot-brain/chapter-1-isaac-sim/cross-platform-considerations",
+  "title": "Cross-Platform Compatibility Considerations",
+  "description": "Overview",
+  "source": "@site/docs/module-3-ai-robot-brain/chapter-1-isaac-sim/cross-platform-considerations.md",
+  "sourceDirName": "module-3-ai-robot-brain/chapter-1-isaac-sim",
+  "slug": "/module-3-ai-robot-brain/chapter-1-isaac-sim/cross-platform-considerations",
+  "permalink": "/docs/module-3-ai-robot-brain/chapter-1-isaac-sim/cross-platform-considerations",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/module-3-ai-robot-brain/chapter-1-isaac-sim/cross-platform-considerations.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 8,
+  "frontMatter": {
+    "sidebar_position": 8,
+    "title": "Cross-Platform Compatibility Considerations"
+  }
+}

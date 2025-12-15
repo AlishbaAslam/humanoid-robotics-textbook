@@ -1,0 +1,28 @@
+{
+  "id": "module-2-digital-twin/chapter-1-gazebo/index",
+  "title": "Chapter 1 - Physics Simulation in Gazebo",
+  "description": "Welcome to Chapter 1 of the Digital Twin educational module! This chapter focuses on Gazebo physics simulation, which forms the foundational component of our digital twin system. Gazebo provides realistic physics simulation that accurately models the behavior of robots and their interactions with the environment.",
+  "source": "@site/docs/module-2-digital-twin/chapter-1-gazebo/index.md",
+  "sourceDirName": "module-2-digital-twin/chapter-1-gazebo",
+  "slug": "/module-2-digital-twin/chapter-1-gazebo/",
+  "permalink": "/docs/module-2-digital-twin/chapter-1-gazebo/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/module-2-digital-twin/chapter-1-gazebo/index.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "Chapter 1 - Physics Simulation in Gazebo",
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Module Summary - The Robotic Nervous System",
+    "permalink": "/docs/module-1-ros2/chapter-3-urdf-modeling/final_summary"
+  },
+  "next": {
+    "title": "Gazebo Setup Guide for Physics Simulation",
+    "permalink": "/docs/module-2-digital-twin/chapter-1-gazebo/gazebo-setup-guide"
+  }
+}

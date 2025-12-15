@@ -1,0 +1,28 @@
+{
+  "id": "module-2-digital-twin/chapter-2-unity/material-lighting-setup",
+  "title": "Realistic Material and Lighting Setup for Robots",
+  "description": "This section provides comprehensive guidance on creating realistic materials and lighting setups for robot visualization in Unity. Proper material and lighting configuration is essential for high-fidelity digital twin rendering that accurately represents real-world robot appearance and behavior.",
+  "source": "@site/docs/module-2-digital-twin/chapter-2-unity/material-lighting-setup.md",
+  "sourceDirName": "module-2-digital-twin/chapter-2-unity",
+  "slug": "/module-2-digital-twin/chapter-2-unity/material-lighting-setup",
+  "permalink": "/docs/module-2-digital-twin/chapter-2-unity/material-lighting-setup",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/module-2-digital-twin/chapter-2-unity/material-lighting-setup.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "title": "Realistic Material and Lighting Setup for Robots",
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Robot Model Import and Setup Tutorial",
+    "permalink": "/docs/module-2-digital-twin/chapter-2-unity/robot-model-import-setup"
+  },
+  "next": {
+    "title": "User Interface Controls for Robot Interaction",
+    "permalink": "/docs/module-2-digital-twin/chapter-2-unity/user-interface-controls"
+  }
+}

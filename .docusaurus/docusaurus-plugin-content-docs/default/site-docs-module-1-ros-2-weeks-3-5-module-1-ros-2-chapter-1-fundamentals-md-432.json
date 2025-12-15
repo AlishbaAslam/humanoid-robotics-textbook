@@ -1,0 +1,24 @@
+{
+  "id": "module-1-ros2-weeks-3-5/module-1-ros2/chapter-1-fundamentals",
+  "title": "Chapter 1: Fundamentals of ROS 2 Nodes, Topics, and Services",
+  "description": "Introduction to ROS 2",
+  "source": "@site/docs/module-1-ros2-weeks-3-5/module-1-ros2/chapter-1-fundamentals.md",
+  "sourceDirName": "module-1-ros2-weeks-3-5/module-1-ros2",
+  "slug": "/module-1-ros2-weeks-3-5/module-1-ros2/chapter-1-fundamentals",
+  "permalink": "/docs/module-1-ros2-weeks-3-5/module-1-ros2/chapter-1-fundamentals",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/module-1-ros2-weeks-3-5/module-1-ros2/chapter-1-fundamentals.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 2 - Integrating Python Agents with ROS 2 via rclpy",
+    "permalink": "/docs/module-1-ros2-weeks-3-5/module-1-ros2/chapter-2-python-agents"
+  },
+  "next": {
+    "title": "Exercise 3 - Services and Client Communication",
+    "permalink": "/docs/module-1-ros2-weeks-3-5/module-1-ros2/exercises/exercise-3-services"
+  }
+}

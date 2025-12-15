@@ -1,0 +1,28 @@
+{
+  "id": "module-2-digital-twin/chapter-1-gazebo/diagrams-and-screenshots-guide",
+  "title": "Diagrams and Screenshots Guide",
+  "description": "This document describes the diagrams and screenshots that should be included in the Gazebo physics simulation chapter to enhance learning and understanding. These visual aids provide clarity to complex concepts and help learners visualize the setup and configuration processes.",
+  "source": "@site/docs/module-2-digital-twin/chapter-1-gazebo/diagrams-and-screenshots-guide.md",
+  "sourceDirName": "module-2-digital-twin/chapter-1-gazebo",
+  "slug": "/module-2-digital-twin/chapter-1-gazebo/diagrams-and-screenshots-guide",
+  "permalink": "/docs/module-2-digital-twin/chapter-1-gazebo/diagrams-and-screenshots-guide",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/module-2-digital-twin/chapter-1-gazebo/diagrams-and-screenshots-guide.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 8,
+  "frontMatter": {
+    "title": "Diagrams and Screenshots Guide",
+    "sidebar_position": 8
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Gazebo Setup Guide for Physics Simulation",
+    "permalink": "/docs/module-2-digital-twin/chapter-1-gazebo/gazebo-setup-guide"
+  },
+  "next": {
+    "title": "Exercise 1 - Basic Robot in Gazebo Environment",
+    "permalink": "/docs/module-2-digital-twin/chapter-1-gazebo/exercise-1-basic-robot"
+  }
+}

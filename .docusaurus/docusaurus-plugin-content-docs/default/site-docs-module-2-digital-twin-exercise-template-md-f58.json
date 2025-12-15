@@ -1,0 +1,24 @@
+{
+  "id": "module-2-digital-twin/exercise-template",
+  "title": "Hands-On Exercise Template",
+  "description": "This document provides a standardized template for creating hands-on exercises throughout the digital twin educational module. All exercises in this module follow this consistent format to ensure clarity and reproducibility.",
+  "source": "@site/docs/module-2-digital-twin/exercise-template.md",
+  "sourceDirName": "module-2-digital-twin",
+  "slug": "/module-2-digital-twin/exercise-template",
+  "permalink": "/docs/module-2-digital-twin/exercise-template",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/module-2-digital-twin/exercise-template.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 100,
+  "frontMatter": {
+    "title": "Hands-On Exercise Template",
+    "sidebar_position": 100
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "ROS Integration Examples for Robot Control",
+    "permalink": "/docs/module-2-digital-twin/chapter-1-gazebo/ros-integration-examples"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "module-3-ai-robot-brain/chapter-1-isaac-sim/citations",
+  "title": "NVIDIA Isaac Documentation Citations",
+  "description": "Overview",
+  "source": "@site/docs/module-3-ai-robot-brain/chapter-1-isaac-sim/citations.md",
+  "sourceDirName": "module-3-ai-robot-brain/chapter-1-isaac-sim",
+  "slug": "/module-3-ai-robot-brain/chapter-1-isaac-sim/citations",
+  "permalink": "/docs/module-3-ai-robot-brain/chapter-1-isaac-sim/citations",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/module-3-ai-robot-brain/chapter-1-isaac-sim/citations.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 10,
+  "frontMatter": {
+    "sidebar_position": 10,
+    "title": "NVIDIA Isaac Documentation Citations"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Troubleshooting Isaac Sim Issues",
+    "permalink": "/docs/module-3-ai-robot-brain/chapter-1-isaac-sim/troubleshooting"
+  },
+  "next": {
+    "title": "Chapter 2: Isaac ROS - Hardware-Accelerated VSLAM and Navigation",
+    "permalink": "/docs/module-3-ai-robot-brain/chapter-2-isaac-ros/"
+  }
+}

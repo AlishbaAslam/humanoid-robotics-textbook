@@ -1,0 +1,28 @@
+{
+  "id": "module-3-ai-robot-brain/chapter-1-isaac-sim/diagrams",
+  "title": "Diagrams and Visuals for Isaac Sim",
+  "description": "Overview",
+  "source": "@site/docs/module-3-ai-robot-brain/chapter-1-isaac-sim/diagrams.md",
+  "sourceDirName": "module-3-ai-robot-brain/chapter-1-isaac-sim",
+  "slug": "/module-3-ai-robot-brain/chapter-1-isaac-sim/diagrams",
+  "permalink": "/docs/module-3-ai-robot-brain/chapter-1-isaac-sim/diagrams",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/module-3-ai-robot-brain/chapter-1-isaac-sim/diagrams.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7,
+    "title": "Diagrams and Visuals for Isaac Sim"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Exercise 1: Basic Isaac Sim Environment and Synthetic Data Generation",
+    "permalink": "/docs/module-3-ai-robot-brain/chapter-1-isaac-sim/exercise-1"
+  },
+  "next": {
+    "title": "Code Examples for Isaac Sim",
+    "permalink": "/docs/module-3-ai-robot-brain/chapter-1-isaac-sim/code-examples"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "module-2-digital-twin/chapter-2-unity/robot-model-import-setup",
+  "title": "Robot Model Import and Setup Tutorial",
+  "description": "This tutorial provides comprehensive guidance on importing and setting up robot models in Unity for digital twin applications. You'll learn how to bring 3D robot models into Unity, configure them for visualization, and prepare them for integration with robotics systems.",
+  "source": "@site/docs/module-2-digital-twin/chapter-2-unity/robot-model-import-setup.md",
+  "sourceDirName": "module-2-digital-twin/chapter-2-unity",
+  "slug": "/module-2-digital-twin/chapter-2-unity/robot-model-import-setup",
+  "permalink": "/docs/module-2-digital-twin/chapter-2-unity/robot-model-import-setup",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/module-2-digital-twin/chapter-2-unity/robot-model-import-setup.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "title": "Robot Model Import and Setup Tutorial",
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Unity Installation and Setup for Robotics",
+    "permalink": "/docs/module-2-digital-twin/chapter-2-unity/unity-installation-setup"
+  },
+  "next": {
+    "title": "Realistic Material and Lighting Setup for Robots",
+    "permalink": "/docs/module-2-digital-twin/chapter-2-unity/material-lighting-setup"
+  }
+}

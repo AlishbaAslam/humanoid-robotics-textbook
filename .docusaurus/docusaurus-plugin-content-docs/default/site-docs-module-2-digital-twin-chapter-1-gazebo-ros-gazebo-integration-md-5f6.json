@@ -1,0 +1,28 @@
+{
+  "id": "module-2-digital-twin/chapter-1-gazebo/ros-gazebo-integration",
+  "title": "ROS/Gazebo Integration Patterns",
+  "description": "This guide covers the essential patterns and techniques for integrating ROS (Robot Operating System) with Gazebo simulation. This integration forms the backbone of our digital twin system, allowing real-world ROS nodes to interact with simulated robots in Gazebo.",
+  "source": "@site/docs/module-2-digital-twin/chapter-1-gazebo/ros-gazebo-integration.md",
+  "sourceDirName": "module-2-digital-twin/chapter-1-gazebo",
+  "slug": "/module-2-digital-twin/chapter-1-gazebo/ros-gazebo-integration",
+  "permalink": "/docs/module-2-digital-twin/chapter-1-gazebo/ros-gazebo-integration",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/module-2-digital-twin/chapter-1-gazebo/ros-gazebo-integration.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "title": "ROS/Gazebo Integration Patterns",
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Gazebo Installation and Setup Guide",
+    "permalink": "/docs/module-2-digital-twin/chapter-1-gazebo/installation"
+  },
+  "next": {
+    "title": "Environment Creation Tutorial",
+    "permalink": "/docs/module-2-digital-twin/chapter-1-gazebo/environment-creation-tutorial"
+  }
+}

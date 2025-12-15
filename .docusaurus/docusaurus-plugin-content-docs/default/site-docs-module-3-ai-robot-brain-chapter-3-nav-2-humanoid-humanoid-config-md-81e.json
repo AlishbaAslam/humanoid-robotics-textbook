@@ -1,0 +1,28 @@
+{
+  "id": "module-3-ai-robot-brain/chapter-3-nav2-humanoid/humanoid-config",
+  "title": "Humanoid-Specific Configuration",
+  "description": "This document details the configuration parameters and settings required to adapt the Navigation2 framework for humanoid robots. Unlike wheeled robots, humanoid robots have unique kinematic and dynamic constraints that must be considered in the navigation system.",
+  "source": "@site/docs/module-3-ai-robot-brain/chapter-3-nav2-humanoid/humanoid-config.md",
+  "sourceDirName": "module-3-ai-robot-brain/chapter-3-nav2-humanoid",
+  "slug": "/module-3-ai-robot-brain/chapter-3-nav2-humanoid/humanoid-config",
+  "permalink": "/docs/module-3-ai-robot-brain/chapter-3-nav2-humanoid/humanoid-config",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/module-3-ai-robot-brain/chapter-3-nav2-humanoid/humanoid-config.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "title": "Humanoid-Specific Configuration"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Nav2 Installation and Setup Guide for Humanoid Applications",
+    "permalink": "/docs/module-3-ai-robot-brain/chapter-3-nav2-humanoid/setup-guide"
+  },
+  "next": {
+    "title": "Voice-to-Action",
+    "permalink": "/docs/module-4-vla-educational-module/chapter-1-voice-to-action/"
+  }
+}

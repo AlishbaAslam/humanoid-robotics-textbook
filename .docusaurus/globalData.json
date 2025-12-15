@@ -1,0 +1,399 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "physical-ai-intro/introduction",
+          "docs": [
+            {
+              "id": "module-1-ros2/chapter-1-ros2/exercise-1-basic-nodes",
+              "path": "/docs/module-1-ros2/chapter-1-ros2/exercise-1-basic-nodes",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-1-ros2/chapter-1-ros2/index",
+              "path": "/docs/module-1-ros2/chapter-1-ros2/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-1-ros2/chapter-1-ros2/introduction",
+              "path": "/docs/module-1-ros2/chapter-1-ros2/introduction",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-1-ros2/chapter-1-ros2/setup",
+              "path": "/docs/module-1-ros2/chapter-1-ros2/setup",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-1-ros2/chapter-2-python-agents/exercise-2-python-integration",
+              "path": "/docs/module-1-ros2/chapter-2-python-agents/exercise-2-python-integration",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-1-ros2/chapter-2-python-agents/index",
+              "path": "/docs/module-1-ros2/chapter-2-python-agents/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-1-ros2/chapter-3-urdf-modeling/complete_integration",
+              "path": "/docs/module-1-ros2/chapter-3-urdf-modeling/complete_integration",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-1-ros2/chapter-3-urdf-modeling/exercise-3-urdf-modeling",
+              "path": "/docs/module-1-ros2/chapter-3-urdf-modeling/exercise-3-urdf-modeling",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-1-ros2/chapter-3-urdf-modeling/final_summary",
+              "path": "/docs/module-1-ros2/chapter-3-urdf-modeling/final_summary",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-1-ros2/chapter-3-urdf-modeling/index",
+              "path": "/docs/module-1-ros2/chapter-3-urdf-modeling/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-2-digital-twin/accessibility-guide",
+              "path": "/docs/module-2-digital-twin/accessibility-guide"
+            },
+            {
+              "id": "module-2-digital-twin/assessment-questions",
+              "path": "/docs/module-2-digital-twin/assessment-questions"
+            },
+            {
+              "id": "module-2-digital-twin/chapter-1-gazebo/citations",
+              "path": "/docs/module-2-digital-twin/chapter-1-gazebo/citations",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-2-digital-twin/chapter-1-gazebo/diagrams-and-screenshots-guide",
+              "path": "/docs/module-2-digital-twin/chapter-1-gazebo/diagrams-and-screenshots-guide",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-2-digital-twin/chapter-1-gazebo/exercise-1-basic-robot",
+              "path": "/docs/module-2-digital-twin/chapter-1-gazebo/exercise-1-basic-robot",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-2-digital-twin/chapter-1-gazebo/gazebo-plugins-examples",
+              "path": "/docs/module-2-digital-twin/chapter-1-gazebo/gazebo-plugins-examples",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-2-digital-twin/chapter-1-gazebo/gazebo-setup-guide",
+              "path": "/docs/module-2-digital-twin/chapter-1-gazebo/gazebo-setup-guide",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-2-digital-twin/chapter-1-gazebo/index",
+              "path": "/docs/module-2-digital-twin/chapter-1-gazebo/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-2-digital-twin/chapter-1-gazebo/troubleshooting-guide",
+              "path": "/docs/module-2-digital-twin/chapter-1-gazebo/troubleshooting-guide",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-2-digital-twin/chapter-2-unity/diagrams-screenshots-guide",
+              "path": "/docs/module-2-digital-twin/chapter-2-unity/diagrams-screenshots-guide",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-2-digital-twin/chapter-2-unity/exercise-2-unity-visualization",
+              "path": "/docs/module-2-digital-twin/chapter-2-unity/exercise-2-unity-visualization",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-2-digital-twin/chapter-2-unity/index",
+              "path": "/docs/module-2-digital-twin/chapter-2-unity/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-2-digital-twin/chapter-2-unity/material-lighting-setup",
+              "path": "/docs/module-2-digital-twin/chapter-2-unity/material-lighting-setup",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-2-digital-twin/chapter-2-unity/optimization-techniques",
+              "path": "/docs/module-2-digital-twin/chapter-2-unity/optimization-techniques",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-2-digital-twin/chapter-2-unity/robot-model-import-setup",
+              "path": "/docs/module-2-digital-twin/chapter-2-unity/robot-model-import-setup",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-2-digital-twin/chapter-2-unity/unity-documentation-citations",
+              "path": "/docs/module-2-digital-twin/chapter-2-unity/unity-documentation-citations",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-2-digital-twin/chapter-2-unity/unity-installation-setup",
+              "path": "/docs/module-2-digital-twin/chapter-2-unity/unity-installation-setup",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-2-digital-twin/chapter-2-unity/unity-ros-integration-examples",
+              "path": "/docs/module-2-digital-twin/chapter-2-unity/unity-ros-integration-examples",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-2-digital-twin/chapter-2-unity/user-interface-controls",
+              "path": "/docs/module-2-digital-twin/chapter-2-unity/user-interface-controls",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-2-digital-twin/chapter-3-sensors/depth-camera-simulation",
+              "path": "/docs/module-2-digital-twin/chapter-3-sensors/depth-camera-simulation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-2-digital-twin/chapter-3-sensors/exercise-3-sensor-simulation",
+              "path": "/docs/module-2-digital-twin/chapter-3-sensors/exercise-3-sensor-simulation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-2-digital-twin/chapter-3-sensors/imu-simulation",
+              "path": "/docs/module-2-digital-twin/chapter-3-sensors/imu-simulation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-2-digital-twin/chapter-3-sensors/index",
+              "path": "/docs/module-2-digital-twin/chapter-3-sensors/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-2-digital-twin/chapter-3-sensors/lidar-simulation-tutorial",
+              "path": "/docs/module-2-digital-twin/chapter-3-sensors/lidar-simulation-tutorial",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-2-digital-twin/chapter-3-sensors/sensor-data-processing-ros",
+              "path": "/docs/module-2-digital-twin/chapter-3-sensors/sensor-data-processing-ros",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-2-digital-twin/chapter-3-sensors/sensor-data-validation-comparison",
+              "path": "/docs/module-2-digital-twin/chapter-3-sensors/sensor-data-validation-comparison",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-2-digital-twin/chapter-3-sensors/sensor-fusion-digital-twin",
+              "path": "/docs/module-2-digital-twin/chapter-3-sensors/sensor-fusion-digital-twin",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-2-digital-twin/chapter-3-sensors/sensor-simulation-diagrams",
+              "path": "/docs/module-2-digital-twin/chapter-3-sensors/sensor-simulation-diagrams",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-2-digital-twin/chapter-3-sensors/sensor-simulation-research-citations",
+              "path": "/docs/module-2-digital-twin/chapter-3-sensors/sensor-simulation-research-citations",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-2-digital-twin/complete-digital-twin-example",
+              "path": "/docs/module-2-digital-twin/complete-digital-twin-example"
+            },
+            {
+              "id": "module-2-digital-twin/cross-chapter-exercises",
+              "path": "/docs/module-2-digital-twin/cross-chapter-exercises"
+            },
+            {
+              "id": "module-2-digital-twin/digital-twin-citations",
+              "path": "/docs/module-2-digital-twin/digital-twin-citations"
+            },
+            {
+              "id": "module-2-digital-twin/integration-guide",
+              "path": "/docs/module-2-digital-twin/integration-guide",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-2-digital-twin/summary-and-next-steps",
+              "path": "/docs/module-2-digital-twin/summary-and-next-steps"
+            },
+            {
+              "id": "module-2-digital-twin/troubleshooting-integration",
+              "path": "/docs/module-2-digital-twin/troubleshooting-integration"
+            },
+            {
+              "id": "module-3-ai-robot-brain/chapter-1-isaac-sim/citations",
+              "path": "/docs/module-3-ai-robot-brain/chapter-1-isaac-sim/citations",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-3-ai-robot-brain/chapter-1-isaac-sim/code-examples",
+              "path": "/docs/module-3-ai-robot-brain/chapter-1-isaac-sim/code-examples",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-3-ai-robot-brain/chapter-1-isaac-sim/cross-platform-considerations",
+              "path": "/docs/module-3-ai-robot-brain/chapter-1-isaac-sim/cross-platform-considerations"
+            },
+            {
+              "id": "module-3-ai-robot-brain/chapter-1-isaac-sim/diagrams",
+              "path": "/docs/module-3-ai-robot-brain/chapter-1-isaac-sim/diagrams",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-3-ai-robot-brain/chapter-1-isaac-sim/environment-creation",
+              "path": "/docs/module-3-ai-robot-brain/chapter-1-isaac-sim/environment-creation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-3-ai-robot-brain/chapter-1-isaac-sim/exercise-1",
+              "path": "/docs/module-3-ai-robot-brain/chapter-1-isaac-sim/exercise-1",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-3-ai-robot-brain/chapter-1-isaac-sim/exercise-template",
+              "path": "/docs/module-3-ai-robot-brain/chapter-1-isaac-sim/exercise-template"
+            },
+            {
+              "id": "module-3-ai-robot-brain/chapter-1-isaac-sim/index",
+              "path": "/docs/module-3-ai-robot-brain/chapter-1-isaac-sim/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-3-ai-robot-brain/chapter-1-isaac-sim/integration-examples",
+              "path": "/docs/module-3-ai-robot-brain/chapter-1-isaac-sim/integration-examples",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-3-ai-robot-brain/chapter-1-isaac-sim/setup-guide",
+              "path": "/docs/module-3-ai-robot-brain/chapter-1-isaac-sim/setup-guide",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-3-ai-robot-brain/chapter-1-isaac-sim/synthetic-data-generation",
+              "path": "/docs/module-3-ai-robot-brain/chapter-1-isaac-sim/synthetic-data-generation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-3-ai-robot-brain/chapter-1-isaac-sim/template",
+              "path": "/docs/module-3-ai-robot-brain/chapter-1-isaac-sim/template"
+            },
+            {
+              "id": "module-3-ai-robot-brain/chapter-1-isaac-sim/troubleshooting",
+              "path": "/docs/module-3-ai-robot-brain/chapter-1-isaac-sim/troubleshooting",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-3-ai-robot-brain/chapter-2-isaac-ros/assessment",
+              "path": "/docs/module-3-ai-robot-brain/chapter-2-isaac-ros/assessment"
+            },
+            {
+              "id": "module-3-ai-robot-brain/chapter-2-isaac-ros/code-examples",
+              "path": "/docs/module-3-ai-robot-brain/chapter-2-isaac-ros/code-examples",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-3-ai-robot-brain/chapter-2-isaac-ros/component-configuration",
+              "path": "/docs/module-3-ai-robot-brain/chapter-2-isaac-ros/component-configuration",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-3-ai-robot-brain/chapter-2-isaac-ros/diagrams",
+              "path": "/docs/module-3-ai-robot-brain/chapter-2-isaac-ros/diagrams",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-3-ai-robot-brain/chapter-2-isaac-ros/exercise-2",
+              "path": "/docs/module-3-ai-robot-brain/chapter-2-isaac-ros/exercise-2",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-3-ai-robot-brain/chapter-2-isaac-ros/glossary",
+              "path": "/docs/module-3-ai-robot-brain/chapter-2-isaac-ros/glossary"
+            },
+            {
+              "id": "module-3-ai-robot-brain/chapter-2-isaac-ros/index",
+              "path": "/docs/module-3-ai-robot-brain/chapter-2-isaac-ros/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-3-ai-robot-brain/chapter-2-isaac-ros/navigation-examples",
+              "path": "/docs/module-3-ai-robot-brain/chapter-2-isaac-ros/navigation-examples",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-3-ai-robot-brain/chapter-2-isaac-ros/setup-guide",
+              "path": "/docs/module-3-ai-robot-brain/chapter-2-isaac-ros/setup-guide",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-3-ai-robot-brain/chapter-2-isaac-ros/summary",
+              "path": "/docs/module-3-ai-robot-brain/chapter-2-isaac-ros/summary"
+            },
+            {
+              "id": "module-3-ai-robot-brain/chapter-2-isaac-ros/troubleshooting",
+              "path": "/docs/module-3-ai-robot-brain/chapter-2-isaac-ros/troubleshooting"
+            },
+            {
+              "id": "module-3-ai-robot-brain/chapter-2-isaac-ros/vslam-implementation",
+              "path": "/docs/module-3-ai-robot-brain/chapter-2-isaac-ros/vslam-implementation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-3-ai-robot-brain/chapter-3-nav2-humanoid/humanoid-config",
+              "path": "/docs/module-3-ai-robot-brain/chapter-3-nav2-humanoid/humanoid-config",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-3-ai-robot-brain/chapter-3-nav2-humanoid/index",
+              "path": "/docs/module-3-ai-robot-brain/chapter-3-nav2-humanoid/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-3-ai-robot-brain/chapter-3-nav2-humanoid/setup-guide",
+              "path": "/docs/module-3-ai-robot-brain/chapter-3-nav2-humanoid/setup-guide",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-4-vla-educational-module/chapter-1-voice-to-action/index",
+              "path": "/docs/module-4-vla-educational-module/chapter-1-voice-to-action/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-4-vla-educational-module/chapter-2-cognitive-planning/index",
+              "path": "/docs/module-4-vla-educational-module/chapter-2-cognitive-planning/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-4-vla-educational-module/chapter-3-capstone-project/index",
+              "path": "/docs/module-4-vla-educational-module/chapter-3-capstone-project/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "physical-ai-intro/introduction",
+              "path": "/docs/physical-ai-intro/introduction",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/docs/physical-ai-intro/introduction",
+                "label": "physical-ai-intro/introduction"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

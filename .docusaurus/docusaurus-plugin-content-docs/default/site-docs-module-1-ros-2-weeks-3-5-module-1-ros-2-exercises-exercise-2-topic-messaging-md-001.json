@@ -1,0 +1,20 @@
+{
+  "id": "module-1-ros2-weeks-3-5/module-1-ros2/exercises/exercise-2-topic-messaging",
+  "title": "Exercise 2: Topics and Message Passing",
+  "description": "Objective",
+  "source": "@site/docs/module-1-ros2-weeks-3-5/module-1-ros2/exercises/exercise-2-topic-messaging.md",
+  "sourceDirName": "module-1-ros2-weeks-3-5/module-1-ros2/exercises",
+  "slug": "/module-1-ros2-weeks-3-5/module-1-ros2/exercises/exercise-2-topic-messaging",
+  "permalink": "/docs/module-1-ros2-weeks-3-5/module-1-ros2/exercises/exercise-2-topic-messaging",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/module-1-ros2-weeks-3-5/module-1-ros2/exercises/exercise-2-topic-messaging.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Exercise 1: Basic Nodes",
+    "permalink": "/docs/module-1-ros2-weeks-3-5/module-1-ros2/exercises/exercise-1-basic-nodes"
+  }
+}

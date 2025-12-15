@@ -1,0 +1,19 @@
+{
+  "id": "module-2-digital-twin/complete-digital-twin-example",
+  "title": "Complete Digital Twin Example",
+  "description": "Overview",
+  "source": "@site/docs/module-2-digital-twin/complete-digital-twin-example.md",
+  "sourceDirName": "module-2-digital-twin",
+  "slug": "/module-2-digital-twin/complete-digital-twin-example",
+  "permalink": "/docs/module-2-digital-twin/complete-digital-twin-example",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/module-2-digital-twin/complete-digital-twin-example.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5,
+    "title": "Complete Digital Twin Example"
+  }
+}

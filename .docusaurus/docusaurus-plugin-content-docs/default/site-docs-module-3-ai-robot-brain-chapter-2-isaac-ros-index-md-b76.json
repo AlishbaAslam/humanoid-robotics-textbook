@@ -1,0 +1,28 @@
+{
+  "id": "module-3-ai-robot-brain/chapter-2-isaac-ros/index",
+  "title": "Chapter 2: Isaac ROS - Hardware-Accelerated VSLAM and Navigation",
+  "description": "Overview",
+  "source": "@site/docs/module-3-ai-robot-brain/chapter-2-isaac-ros/index.md",
+  "sourceDirName": "module-3-ai-robot-brain/chapter-2-isaac-ros",
+  "slug": "/module-3-ai-robot-brain/chapter-2-isaac-ros/",
+  "permalink": "/docs/module-3-ai-robot-brain/chapter-2-isaac-ros/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/module-3-ai-robot-brain/chapter-2-isaac-ros/index.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "Chapter 2: Isaac ROS - Hardware-Accelerated VSLAM and Navigation"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "NVIDIA Isaac Documentation Citations",
+    "permalink": "/docs/module-3-ai-robot-brain/chapter-1-isaac-sim/citations"
+  },
+  "next": {
+    "title": "Isaac ROS Installation and Setup Guide",
+    "permalink": "/docs/module-3-ai-robot-brain/chapter-2-isaac-ros/setup-guide"
+  }
+}

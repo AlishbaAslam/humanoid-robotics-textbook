@@ -1,0 +1,28 @@
+{
+  "id": "module-3-ai-robot-brain/chapter-2-isaac-ros/exercise-2",
+  "title": "Exercise 2: Isaac ROS Implementation",
+  "description": "Overview",
+  "source": "@site/docs/module-3-ai-robot-brain/chapter-2-isaac-ros/exercise-2.md",
+  "sourceDirName": "module-3-ai-robot-brain/chapter-2-isaac-ros",
+  "slug": "/module-3-ai-robot-brain/chapter-2-isaac-ros/exercise-2",
+  "permalink": "/docs/module-3-ai-robot-brain/chapter-2-isaac-ros/exercise-2",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/module-3-ai-robot-brain/chapter-2-isaac-ros/exercise-2.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6,
+    "title": "Exercise 2: Isaac ROS Implementation"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Navigation Examples with Isaac ROS",
+    "permalink": "/docs/module-3-ai-robot-brain/chapter-2-isaac-ros/navigation-examples"
+  },
+  "next": {
+    "title": "Diagrams and Visuals for Isaac ROS",
+    "permalink": "/docs/module-3-ai-robot-brain/chapter-2-isaac-ros/diagrams"
+  }
+}

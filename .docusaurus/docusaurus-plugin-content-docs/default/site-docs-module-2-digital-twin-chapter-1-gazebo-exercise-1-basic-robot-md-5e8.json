@@ -1,0 +1,28 @@
+{
+  "id": "module-2-digital-twin/chapter-1-gazebo/exercise-1-basic-robot",
+  "title": "Exercise 1 - Basic Robot in Gazebo Environment",
+  "description": "Learning Objective",
+  "source": "@site/docs/module-2-digital-twin/chapter-1-gazebo/exercise-1-basic-robot.md",
+  "sourceDirName": "module-2-digital-twin/chapter-1-gazebo",
+  "slug": "/module-2-digital-twin/chapter-1-gazebo/exercise-1-basic-robot",
+  "permalink": "/docs/module-2-digital-twin/chapter-1-gazebo/exercise-1-basic-robot",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/module-2-digital-twin/chapter-1-gazebo/exercise-1-basic-robot.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "title": "Exercise 1 - Basic Robot in Gazebo Environment",
+    "sidebar_position": 7
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Diagrams and Screenshots Guide",
+    "permalink": "/docs/module-2-digital-twin/chapter-1-gazebo/diagrams-and-screenshots-guide"
+  },
+  "next": {
+    "title": "Gazebo Plugins and Custom Environments Code Examples",
+    "permalink": "/docs/module-2-digital-twin/chapter-1-gazebo/gazebo-plugins-examples"
+  }
+}

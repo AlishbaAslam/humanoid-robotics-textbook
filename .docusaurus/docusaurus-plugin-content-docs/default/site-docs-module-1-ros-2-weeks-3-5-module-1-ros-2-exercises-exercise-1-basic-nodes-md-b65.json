@@ -1,0 +1,24 @@
+{
+  "id": "module-1-ros2-weeks-3-5/module-1-ros2/exercises/exercise-1-basic-nodes",
+  "title": "Exercise 1: Basic Nodes",
+  "description": "Objective",
+  "source": "@site/docs/module-1-ros2-weeks-3-5/module-1-ros2/exercises/exercise-1-basic-nodes.md",
+  "sourceDirName": "module-1-ros2-weeks-3-5/module-1-ros2/exercises",
+  "slug": "/module-1-ros2-weeks-3-5/module-1-ros2/exercises/exercise-1-basic-nodes",
+  "permalink": "/docs/module-1-ros2-weeks-3-5/module-1-ros2/exercises/exercise-1-basic-nodes",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/module-1-ros2-weeks-3-5/module-1-ros2/exercises/exercise-1-basic-nodes.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Exercise 5 - Sensor Data Processing",
+    "permalink": "/docs/module-1-ros2-weeks-3-5/module-1-ros2/exercises/exercise-5-sensor-processing"
+  },
+  "next": {
+    "title": "Exercise 2: Topics and Message Passing",
+    "permalink": "/docs/module-1-ros2-weeks-3-5/module-1-ros2/exercises/exercise-2-topic-messaging"
+  }
+}

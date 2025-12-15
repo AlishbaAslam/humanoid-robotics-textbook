@@ -1,0 +1,28 @@
+{
+  "id": "module-2-digital-twin/chapter-1-gazebo/gazebo-setup-guide",
+  "title": "Gazebo Setup Guide for Physics Simulation",
+  "description": "This guide provides comprehensive instructions for installing and setting up Gazebo specifically for physics simulation in digital twin applications. We'll cover the installation process, configuration, and verification steps needed to create realistic physics simulations.",
+  "source": "@site/docs/module-2-digital-twin/chapter-1-gazebo/gazebo-setup-guide.md",
+  "sourceDirName": "module-2-digital-twin/chapter-1-gazebo",
+  "slug": "/module-2-digital-twin/chapter-1-gazebo/gazebo-setup-guide",
+  "permalink": "/docs/module-2-digital-twin/chapter-1-gazebo/gazebo-setup-guide",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/module-2-digital-twin/chapter-1-gazebo/gazebo-setup-guide.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "title": "Gazebo Setup Guide for Physics Simulation",
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 1 - Physics Simulation in Gazebo",
+    "permalink": "/docs/module-2-digital-twin/chapter-1-gazebo/"
+  },
+  "next": {
+    "title": "Diagrams and Screenshots Guide",
+    "permalink": "/docs/module-2-digital-twin/chapter-1-gazebo/diagrams-and-screenshots-guide"
+  }
+}

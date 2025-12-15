@@ -1,0 +1,28 @@
+{
+  "id": "module-3-ai-robot-brain/chapter-3-nav2-humanoid/setup-guide",
+  "title": "Nav2 Installation and Setup Guide for Humanoid Applications",
+  "description": "Overview",
+  "source": "@site/docs/module-3-ai-robot-brain/chapter-3-nav2-humanoid/setup-guide.md",
+  "sourceDirName": "module-3-ai-robot-brain/chapter-3-nav2-humanoid",
+  "slug": "/module-3-ai-robot-brain/chapter-3-nav2-humanoid/setup-guide",
+  "permalink": "/docs/module-3-ai-robot-brain/chapter-3-nav2-humanoid/setup-guide",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/module-3-ai-robot-brain/chapter-3-nav2-humanoid/setup-guide.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "title": "Nav2 Installation and Setup Guide for Humanoid Applications"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 3: Nav2 - Humanoid Path Planning",
+    "permalink": "/docs/module-3-ai-robot-brain/chapter-3-nav2-humanoid/"
+  },
+  "next": {
+    "title": "Humanoid-Specific Configuration",
+    "permalink": "/docs/module-3-ai-robot-brain/chapter-3-nav2-humanoid/humanoid-config"
+  }
+}

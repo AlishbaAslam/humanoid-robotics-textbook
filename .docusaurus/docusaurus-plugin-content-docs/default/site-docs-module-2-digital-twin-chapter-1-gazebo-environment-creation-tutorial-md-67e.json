@@ -1,0 +1,28 @@
+{
+  "id": "module-2-digital-twin/chapter-1-gazebo/environment-creation-tutorial",
+  "title": "Environment Creation Tutorial",
+  "description": "This tutorial will guide you through creating basic simulation environments in Gazebo. You'll learn how to build custom worlds with different terrains, objects, and lighting conditions that accurately represent real-world scenarios for your digital twin.",
+  "source": "@site/docs/module-2-digital-twin/chapter-1-gazebo/environment-creation-tutorial.md",
+  "sourceDirName": "module-2-digital-twin/chapter-1-gazebo",
+  "slug": "/module-2-digital-twin/chapter-1-gazebo/environment-creation-tutorial",
+  "permalink": "/docs/module-2-digital-twin/chapter-1-gazebo/environment-creation-tutorial",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/module-2-digital-twin/chapter-1-gazebo/environment-creation-tutorial.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "title": "Environment Creation Tutorial",
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "ROS/Gazebo Integration Patterns",
+    "permalink": "/docs/module-2-digital-twin/chapter-1-gazebo/ros-gazebo-integration"
+  },
+  "next": {
+    "title": "Physics Property Configuration and Tuning",
+    "permalink": "/docs/module-2-digital-twin/chapter-1-gazebo/physics-configuration"
+  }
+}

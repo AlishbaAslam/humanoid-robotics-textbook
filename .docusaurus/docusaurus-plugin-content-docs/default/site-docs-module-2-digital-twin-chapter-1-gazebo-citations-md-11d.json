@@ -1,0 +1,28 @@
+{
+  "id": "module-2-digital-twin/chapter-1-gazebo/citations",
+  "title": "Chapter 1 Citations and References",
+  "description": "This document provides citations to official Gazebo and ROS documentation referenced throughout Chapter 1 - Physics Simulation in Gazebo. These sources provide authoritative information on the concepts and techniques covered in this chapter.",
+  "source": "@site/docs/module-2-digital-twin/chapter-1-gazebo/citations.md",
+  "sourceDirName": "module-2-digital-twin/chapter-1-gazebo",
+  "slug": "/module-2-digital-twin/chapter-1-gazebo/citations",
+  "permalink": "/docs/module-2-digital-twin/chapter-1-gazebo/citations",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/module-2-digital-twin/chapter-1-gazebo/citations.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 11,
+  "frontMatter": {
+    "title": "Chapter 1 Citations and References",
+    "sidebar_position": 11
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Troubleshooting Guide for Common Gazebo Issues",
+    "permalink": "/docs/module-2-digital-twin/chapter-1-gazebo/troubleshooting-guide"
+  },
+  "next": {
+    "title": "Chapter 2 - High-Fidelity Rendering in Unity",
+    "permalink": "/docs/module-2-digital-twin/chapter-2-unity/"
+  }
+}

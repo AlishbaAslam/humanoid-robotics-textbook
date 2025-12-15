@@ -1,0 +1,28 @@
+{
+  "id": "module-3-ai-robot-brain/chapter-1-isaac-sim/exercise-1",
+  "title": "Exercise 1: Basic Isaac Sim Environment and Synthetic Data Generation",
+  "description": "Overview",
+  "source": "@site/docs/module-3-ai-robot-brain/chapter-1-isaac-sim/exercise-1.md",
+  "sourceDirName": "module-3-ai-robot-brain/chapter-1-isaac-sim",
+  "slug": "/module-3-ai-robot-brain/chapter-1-isaac-sim/exercise-1",
+  "permalink": "/docs/module-3-ai-robot-brain/chapter-1-isaac-sim/exercise-1",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/module-3-ai-robot-brain/chapter-1-isaac-sim/exercise-1.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6,
+    "title": "Exercise 1: Basic Isaac Sim Environment and Synthetic Data Generation"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Isaac Sim Integration Examples",
+    "permalink": "/docs/module-3-ai-robot-brain/chapter-1-isaac-sim/integration-examples"
+  },
+  "next": {
+    "title": "Diagrams and Visuals for Isaac Sim",
+    "permalink": "/docs/module-3-ai-robot-brain/chapter-1-isaac-sim/diagrams"
+  }
+}

@@ -1,0 +1,134 @@
+.features {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+  width: 100%;
+  background-color: white;
+}
+
+.moduleFeatures {
+  padding: 3rem 0;
+}
+
+/* Grid container for module cards using template areas for exact 3-2 layout */
+.gridContainer {
+  display: grid;
+  grid-template-areas:
+    "card1 card2 card3"
+    "card4 card5 ."; /* 2 cards in second row, with empty space */
+  grid-template-columns: 1fr 1fr 1fr; /* 3 equal columns */
+  gap: 1.5rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Position cards to create 3-2 layout */
+.gridContainer > *:nth-child(1) {
+  grid-area: card1;
+}
+
+.gridContainer > *:nth-child(2) {
+  grid-area: card2;
+}
+
+.gridContainer > *:nth-child(3) {
+  grid-area: card3;
+}
+
+.gridContainer > *:nth-child(4) {
+  grid-area: card4;
+}
+
+.gridContainer > *:nth-child(5) {
+  grid-area: card5;
+}
+
+/* Card styling for module features */
+.featureCard {
+  border: 2px solid #4da374; /* More visible outline */
+  border-radius: 10px; /* Medium border radius (8-12px) */
+  background: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+  padding: 1.5rem;
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  min-height: 350px; /* Equal height for all cards */
+}
+
+.featureCard:hover {
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15); /* Increased shadow depth */
+  border-color: #358e5b; /* Highlight border color as specified in spec */
+  transform: scale(1.05); /* Slightly scale up as specified */
+}
+
+.buttonContainer {
+  padding-top: 1rem; /* Consistent spacing above button */
+  margin-top: auto; /* Push button to the bottom of the flex container */
+  display: flex;
+  justify-content: center;
+}
+
+.button--secondary {
+  background-color: #2E8555 !important;
+  border-color: #2E8555 !important;
+  color: white !important;
+  transition: background-color 0.25s ease, border-color 0.25s ease;
+}
+
+.button--secondary:hover {
+  background-color: #246a44 !important;
+  border-color: #246a44 !important;
+  color: white !important;
+}
+
+.features ul {
+  text-align: left;
+  padding-left: 1.5rem;
+  margin: 1rem 0;
+}
+
+.features li {
+  margin-bottom: 0.5rem;
+}
+
+.descriptionContainer {
+  flex: 1; /* Take available space to push button to bottom */
+}
+
+.descriptionText {
+  margin-bottom: 1rem;
+}
+
+.descriptionList {
+  margin-top: 0.5rem;
+}
+
+@media (max-width: 996px) {
+  .gridContainer {
+    grid-template-areas: "card1" "card2" "card3" "card4" "card5"; /* Stack vertically on mobile */
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .featureCard {
+    min-height: auto; /* Remove fixed height on mobile */
+  }
+
+  /* Prevent scaling on mobile devices */
+  .featureCard:hover {
+    transform: none; /* No scale effect on mobile */
+  }
+}
+
+/* Tablet view: 2-column layout */
+@media (min-width: 768px) and (max-width: 1199px) {
+  .gridContainer {
+    grid-template-areas:
+      "card1 card2"
+      "card3 card4"
+      "card5 ."; /* Stack as 2-2-1 on tablet */
+    grid-template-columns: 1fr 1fr;
+  }
+}

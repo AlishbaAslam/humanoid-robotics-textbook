@@ -1,0 +1,28 @@
+{
+  "id": "module-3-ai-robot-brain/chapter-3-nav2-humanoid/index",
+  "title": "Chapter 3: Nav2 - Humanoid Path Planning",
+  "description": "This chapter covers the Navigation2 (Nav2) framework specifically tailored for humanoid robots. We'll explore how to adapt traditional wheeled robot navigation approaches for bipedal locomotion and complex humanoid movement patterns.",
+  "source": "@site/docs/module-3-ai-robot-brain/chapter-3-nav2-humanoid/index.md",
+  "sourceDirName": "module-3-ai-robot-brain/chapter-3-nav2-humanoid",
+  "slug": "/module-3-ai-robot-brain/chapter-3-nav2-humanoid/",
+  "permalink": "/docs/module-3-ai-robot-brain/chapter-3-nav2-humanoid/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/module-3-ai-robot-brain/chapter-3-nav2-humanoid/index.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "Chapter 3: Nav2 - Humanoid Path Planning"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Code Examples for Isaac ROS",
+    "permalink": "/docs/module-3-ai-robot-brain/chapter-2-isaac-ros/code-examples"
+  },
+  "next": {
+    "title": "Nav2 Installation and Setup Guide for Humanoid Applications",
+    "permalink": "/docs/module-3-ai-robot-brain/chapter-3-nav2-humanoid/setup-guide"
+  }
+}

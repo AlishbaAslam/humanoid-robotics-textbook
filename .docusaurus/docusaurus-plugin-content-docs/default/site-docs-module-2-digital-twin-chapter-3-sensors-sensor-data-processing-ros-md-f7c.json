@@ -1,0 +1,28 @@
+{
+  "id": "module-2-digital-twin/chapter-3-sensors/sensor-data-processing-ros",
+  "title": "Sensor Data Processing in ROS",
+  "description": "Overview",
+  "source": "@site/docs/module-2-digital-twin/chapter-3-sensors/sensor-data-processing-ros.md",
+  "sourceDirName": "module-2-digital-twin/chapter-3-sensors",
+  "slug": "/module-2-digital-twin/chapter-3-sensors/sensor-data-processing-ros",
+  "permalink": "/docs/module-2-digital-twin/chapter-3-sensors/sensor-data-processing-ros",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/module-2-digital-twin/chapter-3-sensors/sensor-data-processing-ros.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "title": "Sensor Data Processing in ROS",
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "IMU Simulation",
+    "permalink": "/docs/module-2-digital-twin/chapter-3-sensors/imu-simulation"
+  },
+  "next": {
+    "title": "Exercise 3 - Complete Sensor Simulation Setup",
+    "permalink": "/docs/module-2-digital-twin/chapter-3-sensors/exercise-3-sensor-simulation"
+  }
+}

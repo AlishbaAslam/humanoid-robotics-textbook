@@ -1,0 +1,28 @@
+{
+  "id": "module-3-ai-robot-brain/chapter-1-isaac-sim/code-examples",
+  "title": "Code Examples for Isaac Sim",
+  "description": "Overview",
+  "source": "@site/docs/module-3-ai-robot-brain/chapter-1-isaac-sim/code-examples.md",
+  "sourceDirName": "module-3-ai-robot-brain/chapter-1-isaac-sim",
+  "slug": "/module-3-ai-robot-brain/chapter-1-isaac-sim/code-examples",
+  "permalink": "/docs/module-3-ai-robot-brain/chapter-1-isaac-sim/code-examples",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/module-3-ai-robot-brain/chapter-1-isaac-sim/code-examples.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 8,
+  "frontMatter": {
+    "sidebar_position": 8,
+    "title": "Code Examples for Isaac Sim"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Diagrams and Visuals for Isaac Sim",
+    "permalink": "/docs/module-3-ai-robot-brain/chapter-1-isaac-sim/diagrams"
+  },
+  "next": {
+    "title": "Troubleshooting Isaac Sim Issues",
+    "permalink": "/docs/module-3-ai-robot-brain/chapter-1-isaac-sim/troubleshooting"
+  }
+}

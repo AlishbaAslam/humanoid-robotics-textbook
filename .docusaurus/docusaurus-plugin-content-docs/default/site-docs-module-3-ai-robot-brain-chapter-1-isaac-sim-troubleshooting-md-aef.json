@@ -1,0 +1,28 @@
+{
+  "id": "module-3-ai-robot-brain/chapter-1-isaac-sim/troubleshooting",
+  "title": "Troubleshooting Isaac Sim Issues",
+  "description": "Overview",
+  "source": "@site/docs/module-3-ai-robot-brain/chapter-1-isaac-sim/troubleshooting.md",
+  "sourceDirName": "module-3-ai-robot-brain/chapter-1-isaac-sim",
+  "slug": "/module-3-ai-robot-brain/chapter-1-isaac-sim/troubleshooting",
+  "permalink": "/docs/module-3-ai-robot-brain/chapter-1-isaac-sim/troubleshooting",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/module-3-ai-robot-brain/chapter-1-isaac-sim/troubleshooting.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 9,
+  "frontMatter": {
+    "sidebar_position": 9,
+    "title": "Troubleshooting Isaac Sim Issues"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Code Examples for Isaac Sim",
+    "permalink": "/docs/module-3-ai-robot-brain/chapter-1-isaac-sim/code-examples"
+  },
+  "next": {
+    "title": "NVIDIA Isaac Documentation Citations",
+    "permalink": "/docs/module-3-ai-robot-brain/chapter-1-isaac-sim/citations"
+  }
+}

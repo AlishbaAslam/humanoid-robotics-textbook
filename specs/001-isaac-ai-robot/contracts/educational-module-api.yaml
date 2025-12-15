@@ -1,0 +1,306 @@
+# Content API Contract: AI-Robot Brain Educational Module
+
+## Overview
+
+This contract defines the API for accessing and managing educational content for the AI-Robot Brain module using NVIDIA Isaac tools. The API provides endpoints for retrieving educational materials, tracking learning progress, and managing interactive exercises.
+
+## Base URL
+
+```
+https://api.humanoid-robotics-textbook.com/v1/isaac-ai-robot
+```
+
+## Authentication
+
+All endpoints require a valid API key in the header:
+```
+Authorization: Bearer {API_KEY}
+```
+
+## Content Management Endpoints
+
+### GET /modules/{moduleId}
+
+Retrieve information about a specific educational module.
+
+**Path Parameters:**
+- moduleId: string (required) - The unique identifier for the module (e.g., "isaac-ai-robot")
+
+**Response:**
+```json
+{
+  "id": "isaac-ai-robot",
+  "title": "AI-Robot Brain Educational Module (NVIDIA Isaac™)",
+  "description": "Educational module on NVIDIA Isaac tools for robotics engineers and AI developers",
+  "chapters": [
+    {
+      "id": "isaac-sim",
+      "title": "NVIDIA Isaac Sim: Photorealistic Simulation and Synthetic Data Generation",
+      "wordCount": 1200,
+      "estimatedTime": "30 minutes",
+      "objectives": ["Learn Isaac Sim setup", "Create photorealistic environments", "Generate synthetic datasets"]
+    },
+    {
+      "id": "isaac-ros",
+      "title": "Isaac ROS: Hardware-Accelerated VSLAM and Navigation",
+      "wordCount": 1300,
+      "estimatedTime": "35 minutes",
+      "objectives": ["Set up Isaac ROS components", "Configure VSLAM algorithms", "Implement GPU-accelerated navigation"]
+    },
+    {
+      "id": "nav2-humanoid",
+      "title": "Nav2: Path Planning for Bipedal Humanoid Movement",
+      "wordCount": 1200,
+      "estimatedTime": "35 minutes",
+      "objectives": ["Configure Nav2 for bipedal movement", "Implement dynamic path planning", "Handle humanoid-specific challenges"]
+    }
+  ],
+  "totalWordCount": 3700,
+  "totalEstimatedTime": "100 minutes",
+  "prerequisites": ["Basic ROS 2 knowledge", "NVIDIA GPU access"],
+  "citations": 5
+}
+```
+
+### GET /modules/{moduleId}/chapters/{chapterId}
+
+Retrieve detailed content for a specific chapter.
+
+**Path Parameters:**
+- moduleId: string (required) - The module identifier
+- chapterId: string (required) - The chapter identifier (e.g., "isaac-sim", "isaac-ros", "nav2-humanoid")
+
+**Query Parameters:**
+- format: string (optional) - Response format ("html", "markdown", "pdf") - default: "html"
+
+**Response:**
+```json
+{
+  "id": "isaac-sim",
+  "title": "NVIDIA Isaac Sim: Photorealistic Simulation and Synthetic Data Generation",
+  "module": "isaac-ai-robot",
+  "content": {
+    "sections": [
+      {
+        "id": "introduction",
+        "title": "Introduction to Isaac Sim",
+        "type": "text",
+        "content": "NVIDIA Isaac Sim is a..."
+      },
+      {
+        "id": "setup",
+        "title": "Setting up Isaac Sim",
+        "type": "tutorial",
+        "content": "To install Isaac Sim...",
+        "steps": [
+          {
+            "step": 1,
+            "title": "Download Isaac Sim",
+            "instructions": "Download from NVIDIA Developer website...",
+            "verification": "Verify installation completed successfully"
+          }
+        ]
+      },
+      {
+        "id": "environment-creation",
+        "title": "Creating Photorealistic Environments",
+        "type": "tutorial",
+        "content": "To create a photorealistic environment...",
+        "steps": [...]
+      },
+      {
+        "id": "synthetic-data",
+        "title": "Synthetic Data Generation",
+        "type": "tutorial",
+        "content": "Generating synthetic datasets...",
+        "steps": [...]
+      }
+    ],
+    "diagrams": [
+      {
+        "id": "isaac-sim-architecture",
+        "title": "Isaac Sim Architecture Diagram",
+        "description": "Shows the components of Isaac Sim",
+        "url": "/diagrams/isaac-sim-architecture.svg"
+      }
+    ],
+    "codeExamples": [
+      {
+        "id": "basic-simulation",
+        "language": "python",
+        "title": "Basic Isaac Sim Example",
+        "code": "# Example code for basic simulation\n...",
+        "description": "Simple example of running a simulation"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "exercise-1",
+        "title": "Create Your First Environment",
+        "type": "practical",
+        "description": "Create a simple environment with basic objects",
+        "difficulty": "beginner",
+        "estimatedTime": "15 minutes"
+      }
+    ]
+  },
+  "objectives": ["Learn Isaac Sim setup", "Create photorealistic environments", "Generate synthetic datasets"],
+  "prerequisites": ["NVIDIA GPU with CUDA support", "Basic understanding of simulation concepts"],
+  "citations": [
+    {
+      "title": "Isaac Sim Documentation",
+      "url": "https://docs.omniverse.nvidia.com/isaacsim/latest/overview.html",
+      "accessed": "2025-12-10"
+    }
+  ],
+  "wordCount": 1200,
+  "estimatedTime": "30 minutes"
+}
+```
+
+### GET /modules/{moduleId}/chapters/{chapterId}/exercises
+
+Retrieve exercises for a specific chapter.
+
+**Path Parameters:**
+- moduleId: string (required)
+- chapterId: string (required)
+
+**Response:**
+```json
+{
+  "chapterId": "isaac-sim",
+  "exercises": [
+    {
+      "id": "exercise-1",
+      "title": "Create Your First Environment",
+      "type": "practical",
+      "description": "Create a simple environment with basic objects",
+      "difficulty": "beginner",
+      "estimatedTime": "15 minutes",
+      "instructions": "Follow the steps to create a basic simulation environment...",
+      "requirements": ["Isaac Sim installed", "NVIDIA GPU"],
+      "validationCriteria": [
+        "Environment loads successfully",
+        "Objects are properly placed",
+        "Physics simulation works"
+      ],
+      "solution": {
+        "steps": ["Step 1...", "Step 2..."],
+        "expectedOutput": "A working simulation with physics"
+      }
+    }
+  ]
+}
+```
+
+### POST /modules/{moduleId}/progress
+
+Track a user's progress through the module.
+
+**Path Parameters:**
+- moduleId: string (required)
+
+**Request Body:**
+```json
+{
+  "userId": "user-12345",
+  "chapterId": "isaac-sim",
+  "completedSections": ["introduction", "setup"],
+  "completedExercises": ["exercise-1"],
+  "timeSpent": 1200,  // in seconds
+  "notes": "Struggled with installation steps but got it working after checking GPU drivers"
+}
+```
+
+**Response:**
+```json
+{
+  "success": true,
+  "progress": {
+    "moduleId": "isaac-ai-robot",
+    "userId": "user-12345",
+    "overallCompletion": 25,
+    "chapters": {
+      "isaac-sim": 50,
+      "isaac-ros": 0,
+      "nav2-humanoid": 0
+    },
+    "lastUpdated": "2025-12-13T10:30:00Z"
+  }
+}
+```
+
+### GET /modules/{moduleId}/progress/{userId}
+
+Retrieve a user's progress through the module.
+
+**Path Parameters:**
+- moduleId: string (required)
+- userId: string (required)
+
+**Response:**
+```json
+{
+  "moduleId": "isaac-ai-robot",
+  "userId": "user-12345",
+  "overallCompletion": 25,
+  "chapters": {
+    "isaac-sim": {
+      "completion": 50,
+      "timeSpent": 1800,
+      "completedSections": ["introduction", "setup"],
+      "completedExercises": ["exercise-1"],
+      "lastAccessed": "2025-12-13T10:30:00Z"
+    },
+    "isaac-ros": {
+      "completion": 0,
+      "timeSpent": 0,
+      "completedSections": [],
+      "completedExercises": [],
+      "lastAccessed": null
+    },
+    "nav2-humanoid": {
+      "completion": 0,
+      "timeSpent": 0,
+      "completedSections": [],
+      "completedExercises": [],
+      "lastAccessed": null
+    }
+  },
+  "totalTimeSpent": 1800,
+  "startDate": "2025-12-13T09:00:00Z",
+  "lastUpdated": "2025-12-13T10:30:00Z"
+}
+```
+
+## Error Responses
+
+All endpoints return standard error responses when appropriate:
+
+```json
+{
+  "error": {
+    "code": "RESOURCE_NOT_FOUND",
+    "message": "The requested resource was not found",
+    "details": "Module 'nonexistent-module' does not exist"
+  }
+}
+```
+
+Common error codes:
+- `UNAUTHORIZED`: Invalid or missing authentication
+- `RESOURCE_NOT_FOUND`: Requested resource does not exist
+- `VALIDATION_ERROR`: Request body failed validation
+- `INTERNAL_ERROR`: Server-side error occurred
+
+## Rate Limiting
+
+All endpoints are subject to rate limiting:
+- 1000 requests per hour per API key
+- 10 requests per second per API key
+
+Rate limit headers are included in all responses:
+- `X-RateLimit-Limit`: Request limit per time period
+- `X-RateLimit-Remaining`: Remaining requests in current period
+- `X-RateLimit-Reset`: Time when limit resets (Unix timestamp)

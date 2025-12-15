@@ -1,0 +1,28 @@
+{
+  "id": "module-2-digital-twin/chapter-1-gazebo/installation",
+  "title": "Gazebo Installation and Setup Guide",
+  "description": "This guide will help you install and set up Gazebo for robotics simulation. Gazebo provides high-fidelity physics simulation that forms the foundation of our digital twin system.",
+  "source": "@site/docs/module-2-digital-twin/chapter-1-gazebo/installation.md",
+  "sourceDirName": "module-2-digital-twin/chapter-1-gazebo",
+  "slug": "/module-2-digital-twin/chapter-1-gazebo/installation",
+  "permalink": "/docs/module-2-digital-twin/chapter-1-gazebo/installation",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/module-2-digital-twin/chapter-1-gazebo/installation.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "title": "Gazebo Installation and Setup Guide",
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 1 - Physics Simulation in Gazebo",
+    "permalink": "/docs/module-2-digital-twin/chapter-1-gazebo/"
+  },
+  "next": {
+    "title": "ROS/Gazebo Integration Patterns",
+    "permalink": "/docs/module-2-digital-twin/chapter-1-gazebo/ros-gazebo-integration"
+  }
+}

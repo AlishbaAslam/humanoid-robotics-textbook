@@ -1,0 +1,28 @@
+{
+  "id": "module-1-ros2-weeks-3-5/module-1-ros2/exercises/exercise-3-services",
+  "title": "Exercise 3 - Services and Client Communication",
+  "description": "Objective",
+  "source": "@site/docs/module-1-ros2-weeks-3-5/module-1-ros2/exercises/exercise-3-services.md",
+  "sourceDirName": "module-1-ros2-weeks-3-5/module-1-ros2/exercises",
+  "slug": "/module-1-ros2-weeks-3-5/module-1-ros2/exercises/exercise-3-services",
+  "permalink": "/docs/module-1-ros2-weeks-3-5/module-1-ros2/exercises/exercise-3-services",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/module-1-ros2-weeks-3-5/module-1-ros2/exercises/exercise-3-services.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "title": "Exercise 3 - Services and Client Communication",
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 1: Fundamentals of ROS 2 Nodes, Topics, and Services",
+    "permalink": "/docs/module-1-ros2-weeks-3-5/module-1-ros2/chapter-1-fundamentals"
+  },
+  "next": {
+    "title": "Exercise 4 - Basic Python Agent Integration",
+    "permalink": "/docs/module-1-ros2-weeks-3-5/module-1-ros2/exercises/exercise-4-python-agent-basic"
+  }
+}

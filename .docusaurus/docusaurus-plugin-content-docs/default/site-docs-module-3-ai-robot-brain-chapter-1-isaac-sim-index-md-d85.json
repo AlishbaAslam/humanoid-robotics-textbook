@@ -1,0 +1,28 @@
+{
+  "id": "module-3-ai-robot-brain/chapter-1-isaac-sim/index",
+  "title": "Chapter 1: Isaac Sim - Photorealistic Simulation",
+  "description": "Overview",
+  "source": "@site/docs/module-3-ai-robot-brain/chapter-1-isaac-sim/index.md",
+  "sourceDirName": "module-3-ai-robot-brain/chapter-1-isaac-sim",
+  "slug": "/module-3-ai-robot-brain/chapter-1-isaac-sim/",
+  "permalink": "/docs/module-3-ai-robot-brain/chapter-1-isaac-sim/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/module-3-ai-robot-brain/chapter-1-isaac-sim/index.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "Chapter 1: Isaac Sim - Photorealistic Simulation"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Integration Guide - Connecting Gazebo and Unity",
+    "permalink": "/docs/module-2-digital-twin/integration-guide"
+  },
+  "next": {
+    "title": "Isaac Sim Installation and Setup Guide",
+    "permalink": "/docs/module-3-ai-robot-brain/chapter-1-isaac-sim/setup-guide"
+  }
+}

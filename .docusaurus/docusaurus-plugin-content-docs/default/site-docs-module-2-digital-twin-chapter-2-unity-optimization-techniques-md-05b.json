@@ -1,0 +1,28 @@
+{
+  "id": "module-2-digital-twin/chapter-2-unity/optimization-techniques",
+  "title": "Optimization Techniques for High-Fidelity Rendering",
+  "description": "This section provides comprehensive optimization techniques for achieving high-fidelity rendering in Unity while maintaining real-time performance for digital twin applications. These techniques balance visual quality with computational efficiency.",
+  "source": "@site/docs/module-2-digital-twin/chapter-2-unity/optimization-techniques.md",
+  "sourceDirName": "module-2-digital-twin/chapter-2-unity",
+  "slug": "/module-2-digital-twin/chapter-2-unity/optimization-techniques",
+  "permalink": "/docs/module-2-digital-twin/chapter-2-unity/optimization-techniques",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/module-2-digital-twin/chapter-2-unity/optimization-techniques.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 9,
+  "frontMatter": {
+    "title": "Optimization Techniques for High-Fidelity Rendering",
+    "sidebar_position": 9
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Unity-ROS Integration Code Examples",
+    "permalink": "/docs/module-2-digital-twin/chapter-2-unity/unity-ros-integration-examples"
+  },
+  "next": {
+    "title": "Unity Documentation Citations",
+    "permalink": "/docs/module-2-digital-twin/chapter-2-unity/unity-documentation-citations"
+  }
+}

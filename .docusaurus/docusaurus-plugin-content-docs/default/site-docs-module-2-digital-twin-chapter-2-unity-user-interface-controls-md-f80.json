@@ -1,0 +1,28 @@
+{
+  "id": "module-2-digital-twin/chapter-2-unity/user-interface-controls",
+  "title": "User Interface Controls for Robot Interaction",
+  "description": "This section provides comprehensive guidance on creating intuitive user interfaces for interacting with robot digital twins in Unity. Effective UI design is crucial for operators to monitor, control, and understand robot behavior in the digital twin environment.",
+  "source": "@site/docs/module-2-digital-twin/chapter-2-unity/user-interface-controls.md",
+  "sourceDirName": "module-2-digital-twin/chapter-2-unity",
+  "slug": "/module-2-digital-twin/chapter-2-unity/user-interface-controls",
+  "permalink": "/docs/module-2-digital-twin/chapter-2-unity/user-interface-controls",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/module-2-digital-twin/chapter-2-unity/user-interface-controls.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "title": "User Interface Controls for Robot Interaction",
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Realistic Material and Lighting Setup for Robots",
+    "permalink": "/docs/module-2-digital-twin/chapter-2-unity/material-lighting-setup"
+  },
+  "next": {
+    "title": "Exercise 2 - Unity Robot Visualization",
+    "permalink": "/docs/module-2-digital-twin/chapter-2-unity/exercise-2-unity-visualization"
+  }
+}
