@@ -31,7 +31,7 @@ jobs:
         with:
           node-version: 20.x
           cache: 'npm'
-          cache-dependency-path: './humanoid-robotics-textbook/website/package-lock.json'
+          cache-dependency-path: 'humanoid-robotics-textbook/website/package-lock.json'
       
       - name: Install dependencies
         working-directory: ./humanoid-robotics-textbook/website
@@ -54,3 +54,4 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
