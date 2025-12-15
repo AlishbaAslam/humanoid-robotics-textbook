@@ -37,19 +37,19 @@ jobs:
         with:
           path: |
             ~/.npm
-            humanoid-robotics-textbook/website/node_modules
-          key: ${{ runner.os }}-node-${{ hashFiles('humanoid-robotics-textbook/website/package-lock.json') }}
+            website/node_modules
+          key: ${{ runner.os }}-node-${{ hashFiles('website/package-lock.json') }}
           restore-keys: |
             ${{ runner.os }}-node-
 
       # 👇 Install dependencies
       - name: Install dependencies
-        working-directory: ./humanoid-robotics-textbook/website
+        working-directory: ./website
         run: npm ci
 
       # 👇 Build the website
       - name: Build
-        working-directory: ./humanoid-robotics-textbook/website
+        working-directory: ./website
         run: npm run build
 
       # 👇 Configure GitHub Pages
@@ -60,7 +60,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./humanoid-robotics-textbook/website/build
+          path: ./website/build
 
       # 👇 Deploy to GitHub Pages
       - name: Deploy to GitHub Pages
