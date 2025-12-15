@@ -97,7 +97,7 @@ const config = {
             label: 'Textbook',
           },
           {
-            href: 'https://github.com/AlishbaAslam/AI-Spec-Driven-Hackathon.git',
+            href: 'https://github.com/AlishbaAslam/humanoid-robotics-textbook.git',
             label: 'GitHub',
             position: 'right',
           },
@@ -148,4 +148,5 @@ const config = {
 };
 
 export default config;
+
 
