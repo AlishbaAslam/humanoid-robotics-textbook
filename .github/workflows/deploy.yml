@@ -52,9 +52,11 @@ jobs:
         working-directory: ./website
         run: npm run build
 
-      # 👇 Configure GitHub Pages
+      # 👇 Configure GitHub Pages (enable automatically if not enabled)
       - name: Setup Pages
         uses: actions/configure-pages@v4
+        with:
+          enablement: true
 
       # 👇 Upload build artifact
       - name: Upload artifact
