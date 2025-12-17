@@ -1,0 +1,258 @@
+openapi: 3.0.3
+info:
+  title: Agent Retrieval Integration API
+  description: API for interacting with the humanoid robotics content agent
+  version: 1.0.0
+servers:
+  - url: http://localhost:8000
+    description: Development server
+  - url: https://api.example.com
+    description: Production server
+paths:
+  /api/agent/query:
+    post:
+      summary: Submit a query to the agent
+      description: Process a user query and return a response based on humanoid robotics content
+      operationId: submitQuery
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/QueryRequest'
+      responses:
+        '200':
+          description: Successful response with agent answer
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/QueryResponse'
+        '400':
+          description: Bad request - invalid query format
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '500':
+          description: Internal server error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+      security:
+        - bearerAuth: []
+  /api/agent/query/batch:
+    post:
+      summary: Submit multiple queries to the agent
+      description: Process multiple user queries in sequence
+      operationId: submitBatchQuery
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/BatchQueryRequest'
+      responses:
+        '200':
+          description: Successful response with agent answers
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/BatchQueryResponse'
+        '400':
+          description: Bad request - invalid query format
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '500':
+          description: Internal server error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+      security:
+        - bearerAuth: []
+  /health:
+    get:
+      summary: Health check endpoint
+      description: Check the health status of the agent service
+      operationId: healthCheck
+      responses:
+        '200':
+          description: Service is healthy
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HealthResponse'
+        '503':
+          description: Service is unhealthy
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+components:
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
+  schemas:
+    QueryRequest:
+      type: object
+      required:
+        - query
+      properties:
+        query:
+          type: string
+          description: The user's query about humanoid robotics
+          example: "What are the key components of a humanoid robot's locomotion system?"
+        session_id:
+          type: string
+          description: Session identifier to maintain conversation context
+          example: "sess_abc123xyz"
+        user_id:
+          type: string
+          description: User identifier for tracking purposes
+          example: "user_12345"
+    QueryResponse:
+      type: object
+      required:
+        - id
+        - query
+        - response
+        - retrieved_chunks
+        - timestamp
+      properties:
+        id:
+          type: string
+          description: Unique identifier for this response
+          example: "resp_abc123"
+        query:
+          type: string
+          description: The original query submitted by the user
+          example: "What are the key components of a humanoid robot's locomotion system?"
+        response:
+          type: string
+          description: The agent's response to the query
+          example: "The key components of a humanoid robot's locomotion system include: 1) Actuators for joint movement, 2) Sensors for balance and position feedback, 3) Control algorithms for gait planning, and 4) Power systems for sustained operation."
+        retrieved_chunks:
+          type: array
+          description: List of content chunks used to generate the response
+          items:
+            $ref: '#/components/schemas/RetrievedChunk'
+        confidence:
+          type: number
+          format: float
+          description: Confidence level in the response (0.0 to 1.0)
+          example: 0.85
+        sources:
+          type: array
+          description: List of source documents referenced
+          items:
+            type: string
+          example: ["Chapter 3: Locomotion Systems", "Chapter 7: Actuator Design"]
+        timestamp:
+          type: string
+          format: date-time
+          description: When the response was generated
+          example: "2025-12-17T10:30:00Z"
+    RetrievedChunk:
+      type: object
+      required:
+        - id
+        - content
+        - source_document
+        - similarity_score
+      properties:
+        id:
+          type: string
+          description: Unique identifier for the retrieved chunk
+          example: "chunk_123"
+        content:
+          type: string
+          description: The content of the retrieved chunk
+          example: "The locomotion system of a humanoid robot consists of multiple components working in coordination..."
+        source_document:
+          type: string
+          description: Reference to the original document
+          example: "Chapter 3: Locomotion Systems"
+        page_number:
+          type: integer
+          description: Page number in the original document
+          example: 45
+        similarity_score:
+          type: number
+          format: float
+          description: Similarity score between query and chunk (0.0 to 1.0)
+          example: 0.92
+        metadata:
+          type: object
+          description: Additional metadata about the chunk
+          example: {"section": "3.2", "keywords": ["actuators", "gait", "balance"]}
+    BatchQueryRequest:
+      type: object
+      required:
+        - queries
+      properties:
+        queries:
+          type: array
+          description: List of queries to process in sequence
+          items:
+            $ref: '#/components/schemas/QueryRequest'
+        session_id:
+          type: string
+          description: Session identifier to maintain conversation context across queries
+          example: "sess_abc123xyz"
+    BatchQueryResponse:
+      type: object
+      required:
+        - responses
+      properties:
+        responses:
+          type: array
+          description: List of responses corresponding to the input queries
+          items:
+            $ref: '#/components/schemas/QueryResponse'
+        session_id:
+          type: string
+          description: Session identifier used for the batch
+          example: "sess_abc123xyz"
+    ErrorResponse:
+      type: object
+      required:
+        - error
+        - message
+      properties:
+        error:
+          type: string
+          description: Error code
+          example: "QUERY_PROCESSING_ERROR"
+        message:
+          type: string
+          description: Human-readable error message
+          example: "Failed to process query due to internal error"
+        details:
+          type: object
+          description: Additional error details (optional)
+          example: {"query_id": "query_123"}
+    HealthResponse:
+      type: object
+      required:
+        - status
+        - timestamp
+      properties:
+        status:
+          type: string
+          description: Health status of the service
+          enum: [healthy, unhealthy]
+          example: "healthy"
+        timestamp:
+          type: string
+          format: date-time
+          description: When the health check was performed
+          example: "2025-12-17T10:30:00Z"
+        details:
+          type: object
+          description: Additional health details (optional)
+          example: {"qdrant_status": "connected", "openai_status": "connected"}

@@ -1,0 +1,120 @@
+# API Contract: Retrieval Pipeline Testing for RAG Chatbot
+
+# This contract defines the expected interface for the retrieval testing functionality
+# It specifies the command-line interface and expected behavior
+
+openapi: 3.0.0
+info:
+  title: Retrieval Pipeline Testing API
+  version: 1.0.0
+  description: API contract for testing the retrieval pipeline of the RAG chatbot
+
+# Command-line arguments contract
+paths: {}
+
+# The actual implementation will be command-line based, not HTTP
+# This contract defines the expected command-line interface:
+
+Command Line Interface Contract:
+
+  retrieve_content:
+    description: "Main function to retrieve content from Qdrant based on semantic similarity"
+    arguments:
+      - name: "--query"
+        type: string
+        required: false
+        description: "Natural language query to search for in the vector store"
+
+      - name: "--test-retrieval"
+        type: boolean
+        required: false
+        description: "Run retrieval testing with specified query"
+
+      - name: "--test-consistency"
+        type: boolean
+        required: false
+        description: "Test consistency of retrieval results across multiple runs"
+
+      - name: "--test-metadata"
+        type: boolean
+        required: false
+        description: "Validate metadata integrity in retrieved results"
+
+      - name: "--test-all"
+        type: boolean
+        required: false
+        description: "Run comprehensive test suite"
+
+      - name: "--queries-file"
+        type: string
+        required: false
+        description: "File containing multiple queries to test"
+
+      - name: "--runs"
+        type: integer
+        required: false
+        default: 5
+        description: "Number of runs for consistency testing"
+
+      - name: "--collection"
+        type: string
+        required: false
+        default: "book_embeddings"
+        description: "Qdrant collection name to query"
+
+      - name: "--top-k"
+        type: integer
+        required: false
+        default: 5
+        description: "Number of top results to return"
+
+  expected_outputs:
+    - field: "query_text"
+      type: string
+      description: "The original query text"
+
+    - field: "retrieved_chunks"
+      type: array
+      items:
+        type: object
+        properties:
+          text:
+            type: string
+            description: "The retrieved text content"
+          source_url:
+            type: string
+            description: "URL of the source document"
+          title:
+            type: string
+            description: "Title of the source document"
+          similarity_score:
+            type: number
+            description: "Similarity score between query and chunk"
+          chunk_id:
+            type: string
+            description: "Unique identifier for the chunk"
+
+    - field: "execution_time"
+      type: number
+      description: "Time taken to execute the query in seconds"
+
+    - field: "retrieval_accuracy"
+      type: number
+      description: "Accuracy score for the retrieval (0-1)"
+
+    - field: "metadata_accuracy"
+      type: number
+      description: "Accuracy score for metadata preservation (0-1)"
+
+  error_responses:
+    - error: "QDRANT_CONNECTION_ERROR"
+      description: "Unable to connect to Qdrant database"
+      recovery: "Verify Qdrant URL and API key in environment variables"
+
+    - error: "NO_RESULTS_FOUND"
+      description: "No results found for the given query"
+      recovery: "Try a different query or verify content exists in the vector store"
+
+    - error: "COHERE_API_ERROR"
+      description: "Error with Cohere API for embedding generation"
+      recovery: "Verify Cohere API key in environment variables"

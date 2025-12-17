@@ -21,15 +21,15 @@ const config = {
   },
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://AlishbaAslam.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/humanoid-robotics-textbook/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'humanoid-robotics-textbook', // Usually your GitHub org/user name.
+  projectName: 'AlishbaAslam', // Usually your repo name.
 
   onBrokenLinks: 'warn',
 
@@ -75,6 +75,35 @@ const config = {
     ],
   ],
 
+  plugins: [
+    // Plugin to enable environment variables in the browser
+    () => ({
+      name: 'env-plugin',
+      configureWebpack: (config, isServer) => {
+        if (!isServer) {
+          config.resolve.fallback = {
+            ...config.resolve.fallback,
+            process: require.resolve('process/browser'),
+          };
+        }
+
+        // Prepare only the environment variables that start with REACT_APP_ for the browser
+        const envForBrowser = {};
+        Object.keys(process.env).forEach(key => {
+          if (key.startsWith('REACT_APP_')) {
+            envForBrowser[`process.env.${key}`] = JSON.stringify(process.env[key]);
+          }
+        });
+
+        return {
+          plugins: [
+            new (require('webpack')).DefinePlugin(envForBrowser),
+          ],
+        };
+      },
+    }),
+  ],
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -97,7 +126,7 @@ const config = {
             label: 'Textbook',
           },
           {
-            href: 'https://github.com/AlishbaAslam/AI-Spec-Driven-Hackathon.git',
+            href: 'https://github.com/AlishbaAslam/humanoid-robotics-textbook.git',
             label: 'GitHub',
             position: 'right',
           },

@@ -208,3 +208,12 @@ Wait for consent; never auto-create ADRs. Group related decisions (stacks, authe
 
 ## Code Standards
 See `.specify/memory/constitution.md` for code quality, testing, performance, security, and architecture principles.
+
+## Active Technologies
+- Python 3.11 + qdrant-client, cohere, python-dotenv, requests, beautifulsoup4 (003-retrieval-pipeline-testing)
+- Qdrant vector database (cloud-based) (003-retrieval-pipeline-testing)
+- Python 3.11 + FastAPI, OpenAI Agents SDK, Qdrant-client, Cohere (for embeddings), python-dotenv, requests, beautifulsoup4 (001-agent-retrieval-integration)
+- Qdrant vector database (cloud-based), with potential local storage for caching (001-agent-retrieval-integration)
+
+## Recent Changes
+- 003-retrieval-pipeline-testing: Added Python 3.11 + qdrant-client, cohere, python-dotenv, requests, beautifulsoup4
