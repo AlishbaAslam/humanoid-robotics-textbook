@@ -24,33 +24,47 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-      
-      # 👇 Build steps
+
+      # 👇 Set up Node.js
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
           node-version: 20.x
-          cache: 'npm'
-          cache-dependency-path: './humanoid-robotics-textbook/website/package-lock.json'
-      
+
+      # 👇 Cache npm and node_modules
+      - name: Cache npm
+        uses: actions/cache@v3
+        with:
+          path: |
+            ~/.npm
+            website/node_modules
+          key: ${{ runner.os }}-node-${{ hashFiles('website/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+
+      # 👇 Install dependencies
       - name: Install dependencies
-        working-directory: ./humanoid-robotics-textbook/website
+        working-directory: ./website
         run: npm ci
-      
+
+      # 👇 Build the website
       - name: Build
-        working-directory: ./humanoid-robotics-textbook/website
+        working-directory: ./website
         run: npm run build
-      # 👆 Build steps
-      
+
+      # 👇 Configure GitHub Pages (enable automatically if not enabled)
       - name: Setup Pages
         uses: actions/configure-pages@v4
-      
+        with:
+          enablement: true
+
+      # 👇 Upload build artifact
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          # 👇 Specify build output path
-          path: ./humanoid-robotics-textbook/website/build
-      
+          path: ./website/build
+
+      # 👇 Deploy to GitHub Pages
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
