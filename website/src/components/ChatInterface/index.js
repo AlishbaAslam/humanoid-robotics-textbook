@@ -15,10 +15,16 @@ const ChatInterface = ({ initialMessages = [], initialSessionId = null }) => {
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState(null);
   const [isSending, setIsSending] = useState(false); // More specific loading state
-  const [sessionId, setSessionId] = useState(() => {
-    // Get session ID from props, sessionStorage, or generate new one
-    return initialSessionId || sessionStorage.getItem('session_id') || `session_${Date.now()}`;
-  });
+  const [sessionId, setSessionId] = useState(initialSessionId || null);
+
+useEffect(() => {
+  // Browser me hi run kare
+  if (!sessionId) {
+    const storedSessionId = sessionStorage.getItem('session_id') || `session_${Date.now()}`;
+    setSessionId(storedSessionId);
+    sessionStorage.setItem('session_id', storedSessionId);
+  }
+}, [sessionId]);
   const messagesEndRef = useRef(null);
 
   // Store session ID in sessionStorage when it changes
