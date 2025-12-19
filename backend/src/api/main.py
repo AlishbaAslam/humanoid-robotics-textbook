@@ -23,7 +23,12 @@ app = FastAPI(
 # Add middleware
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000", "https://alishbaaslam.github.io/humanoid-robotics-textbook"],  # Allow frontend origin
+    allow_origins=[
+        "http://localhost:3000",
+        "http://localhost:3001",
+        "https://alishbaaslam.github.io",
+        "https://alishbaaslam.github.io/humanoid-robotics-textbook"
+    ],  # Allow frontend origins
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],

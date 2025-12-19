@@ -94,3 +94,6 @@ env/
 .project
 .pycharm/
 .vscode/
+
+# .env files
+.env

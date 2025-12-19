@@ -51,6 +51,8 @@ jobs:
       - name: Build
         working-directory: ./website
         run: npm run build
+        env:
+          REACT_APP_API_BASE_URL: https://humanoid-robotics-textbook.up.railway.app/
 
       # 👇 Configure GitHub Pages (enable automatically if not enabled)
       - name: Setup Pages
