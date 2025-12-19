@@ -6,14 +6,13 @@
 // Get API base URL from environment or default to local development
 // Safely access process.env to avoid "process is not defined" in browser
 const getApiBaseUrl = () => {
-  // Check for environment variable in browser context (injected by Docusaurus)
-  const envBaseUrl = typeof process !== 'undefined' && process.env ? process.env.REACT_APP_API_BASE_URL : undefined;
+  // Build-time env (local dev)
+  if (typeof process !== 'undefined' && process.env?.REACT_APP_API_BASE_URL) {
+    return process.env.REACT_APP_API_BASE_URL;
+  }
 
-  // Also check for a global variable that might be set at build time
-  const globalBaseUrl = typeof window !== 'undefined' && window.REACT_APP_API_BASE_URL ? window.REACT_APP_API_BASE_URL : undefined;
-
-  // Return the first available value, with localhost as fallback
-  return envBaseUrl || globalBaseUrl || 'http://localhost:8000';
+  // Production (GitHub Pages)
+  return 'https://humanoid-robotics-textbook.up.railway.app';
 };
 
 const API_BASE_URL = getApiBaseUrl();
