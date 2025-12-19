@@ -13,7 +13,7 @@
       "Bash(mkdir -p specs/001-create-concise-beginner/checklists)",
       "Bash(git checkout 001-vla-educational-module)",
       "Bash(.specify/scripts/bash/create-phr.sh --title \"Physical AI Intro Chapter Spec\" --stage spec --feature \"001-create-concise-beginner\" --json)",
-      "Bash(find . -name \"docusaurus.config.*\" -o -name \"docusaurus.config.js\" -o -name \"docusaurus.config.ts\" -o -name \"package.json\" -exec grep -l \"docusaurus\" {} ;)",
+      "Bash(find . -name \"docusaurus.config.js\" -o -name \"docusaurus.config.ts\" -o -name \"package.json\" -exec grep -l \"docusaurus\" {} ;) :*",
       "Bash(git rev-parse --git-dir)",
       "mcp__context7__get-library-docs",
       "mcp__context7__resolve-library-id",
