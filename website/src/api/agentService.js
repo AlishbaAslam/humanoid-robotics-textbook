@@ -11,7 +11,8 @@ const getApiBaseUrl = () => {
     return process.env.REACT_APP_API_BASE_URL;
   }
 
-  return 'https://humanoid-robotics-textbook.up.railway.app/';
+  // Local development
+  return 'https://humanoid-robotics-textbook.up.railway.app';
 };
 
 const API_BASE_URL = getApiBaseUrl();
