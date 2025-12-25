@@ -6,13 +6,13 @@
 // Get API base URL from environment or default to local development
 // Safely access process.env to avoid "process is not defined" in browser
 const getApiBaseUrl = () => {
-  // Build-time env (local dev)
+  // Production / deployed frontend
   if (typeof process !== 'undefined' && process.env?.REACT_APP_API_BASE_URL) {
     return process.env.REACT_APP_API_BASE_URL;
   }
 
-  // Production (GitHub Pages)
-  return 'https://humanoid-robotics-textbook.up.railway.app';
+  // Local development
+  return 'http://localhost:8000';
 };
 
 const API_BASE_URL = getApiBaseUrl();

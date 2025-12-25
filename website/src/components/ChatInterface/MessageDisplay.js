@@ -37,12 +37,6 @@ const MessageDisplay = ({ message }) => {
         {message.type === 'agent' && <span className="message-author">Assistant:</span>}
         <div className="message-text">{message.content}</div>
 
-        {message.sources && message.sources.length > 0 && (
-          <div className="message-sources">
-            <strong>Sources:</strong> {message.sources.join(', ')}
-          </div>
-        )}
-
         {message.confidence !== undefined && (
           <div className="message-confidence">
             Confidence: {(message.confidence * 100).toFixed(1)}%

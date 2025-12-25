@@ -3,6 +3,8 @@ import { isValidMessage, createUserMessage, createAgentMessage, createErrorMessa
 import { validateQueryRequest } from '../../utils/inputValidation';
 import { getSessionState, clearSession } from '../../api/agentService';
 import { getUserFriendlyErrorMessage, logError } from '../../utils/errorHandling';
+import { trackQuerySubmission, trackAgentResponse, trackError, initAnalytics } from '../../utils/analytics';
+import { initAccessibility } from '../../utils/accessibility';
 import './chat-interface.css';
 
 /**
@@ -18,6 +20,10 @@ const ChatInterface = ({ initialMessages = [], initialSessionId = null }) => {
   const [sessionId, setSessionId] = useState(initialSessionId || null);
 
 useEffect(() => {
+  // Initialize analytics and accessibility features
+  initAnalytics();
+  initAccessibility();
+
   // Browser me hi run kare
   if (!sessionId) {
     const storedSessionId = sessionStorage.getItem('session_id') || `session_${Date.now()}`;
@@ -53,8 +59,12 @@ useEffect(() => {
         `error_${Date.now()}`
       );
       setMessages(prev => [...prev, errorMessage]);
+      trackError(new Error(`Invalid query: ${validation.errors.join(', ')}`), 'Input validation', sessionId);
       return;
     }
+
+    // Track the query submission
+    trackQuerySubmission(inputValue, sessionId);
 
     // Create and add user message to chat
     const userMessage = createUserMessage(inputValue, `user_${Date.now()}`);
@@ -73,15 +83,21 @@ useEffect(() => {
         session_id: sessionId
       });
 
-      // Create and add agent response to chat
+      // Create and add agent response to chat with defensive checks for potential null/undefined values
       const agentMessage = createAgentMessage(
-        response.response,
-        response.sources || [],
-        response.confidence,
+        response.response || 'No response generated',
+        Array.isArray(response.sources) ? response.sources : (response.sources ? [response.sources] : []),
+        (response.confidence !== null && response.confidence !== undefined) ? response.confidence : null,
         response.id || `agent_${Date.now()}`
       );
 
       setMessages(prev => [...prev, agentMessage]);
+
+      // Track the agent response with defensive checks
+      trackAgentResponse(inputValue, response.response, sessionId, {
+        confidence: response.confidence !== undefined ? response.confidence : null,
+        sources: Array.isArray(response.sources) ? response.sources : (response.sources ? [response.sources] : [])
+      });
 
       // Update session ID if returned from backend
       if (response.session_id) {
@@ -89,6 +105,9 @@ useEffect(() => {
       }
     } catch (err) {
       console.error('Error submitting query:', err);
+
+      // Track the error
+      trackError(err, 'Query submission', sessionId);
 
       // Use the error handling utilities to get a user-friendly message
       const userFriendlyMessage = getUserFriendlyErrorMessage(err);
@@ -127,13 +146,7 @@ useEffect(() => {
               {message.type === 'agent' && <span className="message-author">Assistant:</span>}
               <div className="message-text">{message.content}</div>
 
-              {message.sources && message.sources.length > 0 && (
-                <div className="message-sources">
-                  <strong>Sources:</strong> {message.sources.join(', ')}
-                </div>
-              )}
-
-              {message.confidence !== undefined && (
+              {message.confidence !== undefined && message.confidence !== null && typeof message.confidence === 'number' && (
                 <div className="message-confidence">
                   Confidence: {(message.confidence * 100).toFixed(1)}%
                 </div>

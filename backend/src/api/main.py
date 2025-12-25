@@ -2,7 +2,6 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from src.api.middleware.error_handler import ErrorHandlerMiddleware
 from src.config.settings import settings
-import google.generativeai as genai
 import logging
 
 logger = logging.getLogger(__name__)
@@ -43,24 +42,12 @@ app.include_router(agent.router, prefix="/api/agent", tags=["agent"])
 
 @app.on_event("startup")
 async def startup_event():
-    """Check if the configured Gemini model is available."""
-    if settings.gemini_api_key or settings.openai_api_key:
-        api_key = settings.gemini_api_key or settings.openai_api_key
-        genai.configure(api_key=api_key)
+    """Verify OpenRouter API key is configured."""
 
-        # Determine which model to check
-        model_to_check = settings.GEMINI_MODEL if settings.GEMINI_MODEL else settings.agent_model
-
-        try:
-            # Test if the model is accessible
-            test_model = genai.GenerativeModel(model_to_check)
-            logger.info(f"Successfully verified model availability: {model_to_check}")
-        except Exception as e:
-            logger.error(f"Model {model_to_check} is not available: {e}")
-            # Fail the startup if the model is unavailable
-            raise RuntimeError(f"Gemini model {model_to_check} is not available: {e}")
+    if settings.openrouter_api_key:
+        logger.info("OpenRouter API key is configured")
     else:
-        logger.warning("No Gemini or OpenAI API key provided - skipping model availability check")
+        logger.warning("No OPENROUTER_API_KEY provided - OpenRouter functionality will be limited")
 
 
 @app.get("/")

@@ -903,23 +903,23 @@ def search_qdrant_collection(
     try:
         client = get_qdrant_client()
 
-        # Perform the search in Qdrant using the query_points method for vector search
-        search_results = client.query_points(
+        # Perform the search in Qdrant using the search method for vector search
+        search_results = client.search(
             collection_name=collection_name,
-            query=query_embedding,  # Pass the embedding vector as query
+            query_vector=query_embedding,  # Pass the embedding vector as query
             limit=top_k,
             score_threshold=similarity_threshold  # Filter results by similarity threshold
         )
 
         # Format the results
         formatted_results = []
-        for result in search_results.points:
+        for result in search_results:
             formatted_result = {
-                "text": result.payload.get("text", ""),
-                "source_url": result.payload.get("source_url", ""),
-                "title": result.payload.get("title", ""),
-                "content_hash": result.payload.get("content_hash", ""),
-                "chunk_id": result.payload.get("chunk_id", ""),
+                "text": result.payload.get("text", "") if result.payload else "",
+                "source_url": result.payload.get("source_url", "") if result.payload else "",
+                "title": result.payload.get("title", "") if result.payload else "",
+                "content_hash": result.payload.get("content_hash", "") if result.payload else "",
+                "chunk_id": result.payload.get("chunk_id", "") if result.payload else "",
                 "similarity_score": result.score,
                 "id": result.id
             }
@@ -945,7 +945,7 @@ def verify_qdrant_collection(collection_name: str = DEFAULT_COLLECTION_NAME) -> 
 
         # Check if collection exists
         collections = client.get_collections()
-        collection_exists = any(col.name == collection_name for col in collections.collections)
+        collection_exists = any(col.name == collection_name for col in collections)
 
         return collection_exists
     except Exception as e:
@@ -1358,7 +1358,7 @@ def create_rag_collection(collection_name: str = "book_embeddings", vector_size:
     try:
         # Check if collection already exists
         collections = client.get_collections()
-        collection_exists = any(col.name == collection_name for col in collections.collections)
+        collection_exists = any(col.name == collection_name for col in collections)
 
         if not collection_exists:
             # Create the collection with specified vector size

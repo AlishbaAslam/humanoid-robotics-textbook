@@ -55,7 +55,7 @@ Can be fully tested by entering a query in the frontend UI, submitting it, and v
 - [X] T016 [US1] Connect frontend chat interface to backend agent endpoint
 - [X] T017 [US1] Implement query submission handler in chat component
 - [X] T018 [US1] Add loading state during query processing
-- [ ] T019 [US1] Test User Story 1: Submit Queries to RAG Chatbot
+- [X] T019 [US1] Test User Story 1: Submit Queries to RAG Chatbot
 
 ## Phase 4: User Story 2 - Display Agent Responses in UI (Priority: P2)
 
@@ -70,7 +70,7 @@ Can be tested by sending queries to the backend and verifying that responses are
 - [X] T022 [US2] Add proper styling for agent responses in website/src/css/chat-interface.css
 - [X] T023 [US2] Implement source document display for responses
 - [X] T024 [US2] Add confidence level indicators to responses
-- [ ] T025 [US2] Test User Story 2: Display Agent Responses in UI
+- [X] T025 [US2] Test User Story 2: Display Agent Responses in UI
 
 ## Phase 5: User Story 3 - Handle Communication Errors (Priority: P3)
 
@@ -84,13 +84,13 @@ Can be tested by simulating backend unavailability and verifying that appropriat
 - [X] T027 [P] [US3] Implement network error handling in API service
 - [X] T028 [US3] Add backend error response handling in chat component
 - [X] T029 [US3] Implement timeout handling for long-running queries
-- [ ] T030 [US3] Test User Story 3: Handle Communication Errors
+- [X] T030 [US3] Test User Story 3: Handle Communication Errors
 
 ## Phase 6: Polish & Cross-Cutting Concerns
 
 - [X] T031 Add session management for conversation history
-- [ ] T032 Add analytics for tracking user interactions
-- [ ] T033 Implement proper accessibility features for chat interface
+- [X] T032 Add analytics for tracking user interactions
+- [X] T033 Implement proper accessibility features for chat interface
 - [ ] T034 Add keyboard navigation support for chat interface
 - [ ] T035 Create comprehensive tests for all components
 - [ ] T036 Add documentation for API service usage

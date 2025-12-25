@@ -1,5 +1,12 @@
+"""
+Query models for the Humanoid Robotics Agent API.
+
+This module defines the Pydantic models for query requests, responses, and related data structures.
+"""
+
 from pydantic import BaseModel, Field
-from typing import Optional
+from pydantic import ConfigDict  # For the model_config
+from typing import Optional, List
 from datetime import datetime
 import uuid
 
@@ -9,14 +16,15 @@ class QueryRequest(BaseModel):
     session_id: Optional[str] = Field(None, description="Session identifier to maintain conversation context")
     user_id: Optional[str] = Field(None, description="User identifier for tracking purposes")
 
-    class Config:
-        json_schema_extra = {
+    model_config = ConfigDict(
+        json_schema_extra={
             "example": {
                 "query": "What are the key components of a humanoid robot's locomotion system?",
                 "session_id": "sess_abc123xyz",
                 "user_id": "user_12345"
             }
         }
+    )
 
 
 class RetrievedChunk(BaseModel):
@@ -27,8 +35,8 @@ class RetrievedChunk(BaseModel):
     similarity_score: float = Field(..., ge=0.0, le=1.0, description="How similar this chunk is to the query")
     metadata: Optional[dict] = {}
 
-    class Config:
-        json_schema_extra = {
+    model_config = ConfigDict(
+        json_schema_extra={
             "example": {
                 "id": "chunk_123",
                 "content": "The locomotion system of a humanoid robot consists of multiple components working in coordination...",
@@ -38,6 +46,7 @@ class RetrievedChunk(BaseModel):
                 "metadata": {"section": "3.2", "keywords": ["actuators", "gait", "balance"]}
             }
         }
+    )
 
 
 class QueryResponse(BaseModel):
@@ -47,10 +56,9 @@ class QueryResponse(BaseModel):
     retrieved_chunks: list[RetrievedChunk] = Field(default=[])
     timestamp: datetime = Field(default_factory=datetime.now)
     confidence: Optional[float] = Field(None, ge=0.0, le=1.0, description="Confidence level in the response")
-    sources: Optional[list[str]] = []
 
-    class Config:
-        json_schema_extra = {
+    model_config = ConfigDict(
+        json_schema_extra={
             "example": {
                 "id": "resp_abc123",
                 "query": "What are the key components of a humanoid robot's locomotion system?",
@@ -70,14 +78,15 @@ class QueryResponse(BaseModel):
                 "timestamp": "2025-12-17T10:30:00Z"
             }
         }
+    )
 
 
 class BatchQueryRequest(BaseModel):
     queries: list[QueryRequest] = Field(..., min_length=1, max_length=10)
     session_id: Optional[str] = Field(None, description="Session identifier for batch processing")
 
-    class Config:
-        json_schema_extra = {
+    model_config = ConfigDict(
+        json_schema_extra={
             "example": {
                 "queries": [
                     {
@@ -92,14 +101,15 @@ class BatchQueryRequest(BaseModel):
                 "session_id": "sess_abc123xyz"
             }
         }
+    )
 
 
 class BatchQueryResponse(BaseModel):
     responses: list[QueryResponse]
     session_id: Optional[str] = None
 
-    class Config:
-        json_schema_extra = {
+    model_config = ConfigDict(
+        json_schema_extra={
             "example": {
                 "responses": [
                     {
@@ -120,3 +130,4 @@ class BatchQueryResponse(BaseModel):
                 "session_id": "sess_abc123xyz"
             }
         }
+    )

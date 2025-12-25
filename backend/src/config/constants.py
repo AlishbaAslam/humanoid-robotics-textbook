@@ -1,7 +1,17 @@
+"""
+Constants module for the Humanoid Robotics Agent API.
+
+This module defines all the constant values used throughout the application,
+including enum classes, API response constants, and error messages.
+"""
+
 from enum import Enum
 
 
 class QueryProcessingState(str, Enum):
+    """
+    Enum representing the possible states of query processing.
+    """
     PENDING = "PENDING"
     PROCESSING = "PROCESSING"
     COMPLETED = "COMPLETED"
@@ -9,6 +19,9 @@ class QueryProcessingState(str, Enum):
 
 
 class AgentRole(str, Enum):
+    """
+    Enum representing the possible roles in agent conversations.
+    """
     SYSTEM = "system"
     USER = "user"
     ASSISTANT = "assistant"

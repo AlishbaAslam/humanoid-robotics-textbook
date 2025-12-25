@@ -218,3 +218,20 @@ Make sure your environment variables are properly set:
 - Add loading states and better UX feedback
 - Implement error boundaries for better error handling
 - Add analytics for tracking user interactions
+
+## Running Tests
+
+### Backend Tests
+```bash
+cd backend
+python -m pytest tests/test_agent_integration.py -v
+```
+
+### Frontend Tests
+```bash
+cd website
+npm test
+```
+
+## API Documentation
+See the full API documentation in `docs/api_documentation.md` for detailed information about endpoints, request/response formats, and error handling.

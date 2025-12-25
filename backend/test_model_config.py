@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """
-Test script to verify the GEMINI_MODEL configuration is working properly.
+Test script to verify the OpenRouter model configuration is working properly.
+Tests OpenRouter configuration with the new OpenAI Agent SDK pattern.
 """
 import os
 import sys
@@ -10,37 +11,45 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent))
 
 from src.config.settings import settings
-from src.agents.openai_agent import OpenAIAgent
+from src.agents.openai_agent import openrouter_agent
 
 def test_model_config():
     print("Testing model configuration...")
     print(f"Settings agent_model: {settings.agent_model}")
     print(f"Settings GEMINI_MODEL: {settings.GEMINI_MODEL}")
+    print(f"Settings OPENROUTER_MODEL: {settings.OPENROUTER_MODEL}")
 
     # Determine which model would be used
-    model_to_use = settings.GEMINI_MODEL if settings.GEMINI_MODEL else settings.agent_model
+    model_to_use = settings.OPENROUTER_MODEL or settings.agent_model
     print(f"Model that would be used: {model_to_use}")
 
-    if model_to_use == "gemini-2.5-flash":
-        print("✓ Configuration is correct: gemini-2.5-flash will be used")
+    # Check if we have a valid model configured (OpenRouter)
+    if model_to_use:
+        print(f"✓ Configuration is correct: {model_to_use} will be used")
         return True
     else:
-        print(f"✗ Configuration issue: expected gemini-2.5-flash, got {model_to_use}")
+        print(f"✗ Configuration issue: no model configured")
         return False
 
 def test_agent_initialization():
     print("\nTesting agent initialization...")
     try:
         # This will try to initialize the agent with the configured model
-        agent = OpenAIAgent()
-        print(f"✓ Agent initialized successfully with model: {agent.model.model_name}")
-        return True
+        # Check if the global openrouter_agent instance has been created
+        if hasattr(openrouter_agent, 'model'):
+            print(f"✓ Agent initialized successfully with model: {openrouter_agent.model}")
+            print(f"  - Client available: {openrouter_agent.client is not None}")
+            print(f"  - Assistant available: {openrouter_agent.assistant is not None}")
+            return True
+        else:
+            print("✗ Agent not properly initialized")
+            return False
     except Exception as e:
         print(f"✗ Agent initialization failed: {e}")
         return False
 
 if __name__ == "__main__":
-    print("Model Configuration Test")
+    print("OpenAI Agent SDK Pattern - Model Configuration Test")
     print("="*50)
 
     config_ok = test_model_config()

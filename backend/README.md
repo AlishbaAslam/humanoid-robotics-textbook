@@ -16,6 +16,7 @@ The system performs the following steps:
 - Python 3.11 or higher
 - Access to Cohere API (sign up at [cohere.ai](https://cohere.ai))
 - Qdrant Cloud account (sign up at [qdrant.tech](https://qdrant.tech))
+- OpenRouter API key (sign up at [openrouter.ai](https://openrouter.ai))
 
 ## Setup
 
@@ -45,6 +46,8 @@ The system performs the following steps:
    COHERE_API_KEY=your_actual_cohere_api_key
    QDRANT_URL=your_qdrant_cloud_url
    QDRANT_API_KEY=your_qdrant_api_key
+   OPENROUTER_API_KEY=your_openrouter_api_key
+   OPENROUTER_MODEL=tngtech/deepseek-r1t2-chimera:free
    BASE_URL=https://your-docusaurus-site.com
    ```
 

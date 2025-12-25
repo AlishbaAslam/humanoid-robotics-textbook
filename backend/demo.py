@@ -26,7 +26,6 @@ async def demo():
         print(f"Response: {response.response}")
         print(f"Retrieved {len(response.retrieved_chunks)} chunks")
         print(f"Confidence: {response.confidence}")
-        print(f"Sources: {response.sources}")
 
     except Exception as e:
         print(f"Error processing query: {e}")

@@ -1,4 +1,4 @@
-#!/mnt/c/Users/P.C/Documents/GitHub/AI-Spec-Driven-Hackathon/humanoid-robotics-textbook/backend/.venv_new/bin/python3
+#!/mnt/c/Users/P.C/Documents/GitHub/AI-Spec-Driven-Hackathon/humanoid-robotics-textbook/backend/.venv_new/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys
